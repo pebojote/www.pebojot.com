@@ -1,4 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2022-05-26T05:27:22+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Using Distributed algorithms to System architecture</title><link href="http://localhost:3000/2021/09/11/blog/" rel="alternate" type="text/html" title="Using Distributed algorithms to System architecture" /><published>2021-09-11T00:00:00+08:00</published><updated>2021-09-11T00:00:00+08:00</updated><id>http://localhost:3000/2021/09/11/blog</id><content type="html" xml:base="http://localhost:3000/2021/09/11/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.9.11.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2022-05-30T18:18:47+08:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">Major Hike at Mt. Pigingan 2022. 🌄🚩</title><link href="http://localhost:3000/2022/05/30/blog/" rel="alternate" type="text/html" title="Major Hike at Mt. Pigingan 2022. 🌄🚩" /><published>2022-05-30T00:00:00+08:00</published><updated>2022-05-30T00:00:00+08:00</updated><id>http://localhost:3000/2022/05/30/blog</id><content type="html" xml:base="http://localhost:3000/2022/05/30/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2022.5.30.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; alt=&quot;cover&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;desktop__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Major Hike at Mt. Pigingan. 🌄🚩&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div class=&quot;mobile__size&quot; style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif;&quot;&gt;
+    &lt;h2&gt;Major Hike at Mt. Pigingan. 🌄🚩&lt;/h2&gt;
+&lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;small class=&quot;text-muted&quot;&gt;
+        &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/small&gt;
+    &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        By Edison Pebojot
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        30 May 2022
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+      &lt;/div&gt;
+      &amp;nbsp;
+      &lt;div class=&quot;align-self-center&quot;&gt;
+        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-color-scheme=&quot;no-preference: light; light: light; dark: light;&quot; data-size=&quot;large&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;small class=&quot;text-muted&quot;&gt;
+                &lt;img src=&quot;/assets/images/2x2.webp&quot; width=&quot;30&quot; height=&quot;30&quot; class=&quot;img-fluid rounded-circle&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;/small&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            By Edison Pebojot
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center flex-grow-1&quot;&gt;
+            05/30/2022
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/workpebojot?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-follow-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot;&gt;Follow @workpebojot&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &amp;nbsp;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a class=&quot;github-button align-self-center&quot; href=&quot;https://github.com/workpebojot&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: justify;word-break: keep-all;font-family:sans-serif&quot;&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-12 mx-auto d-block&quot;&gt;
+            &lt;img src=&quot;/assets/images/2022.5.30.blog/1.png&quot; class=&quot;img-fluid&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+            &lt;img src=&quot;/assets/images/2022.5.30.blog/2.png&quot; class=&quot;img-fluid&quot; alt=&quot;Edison Pebojot&quot; /&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;hr /&gt;
+
+&lt;div class=&quot;desktop__size&quot;&gt;
+  &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/05/30/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;align-self-center&quot;&gt;
+      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
+      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mobile__size&quot;&gt;
+    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;align-self-center&quot;&gt;
+            &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2022/05/30/blog/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">So, I&apos;m going to tell you about my hike up Mt. Pigingan. So this year, I&apos;ve decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I&apos;d like to write a blog post about my professional experience also.</summary></entry><entry><title type="html">Using Distributed algorithms to System architecture</title><link href="http://localhost:3000/2021/09/11/blog/" rel="alternate" type="text/html" title="Using Distributed algorithms to System architecture" /><published>2021-09-11T00:00:00+08:00</published><updated>2021-09-11T00:00:00+08:00</updated><id>http://localhost:3000/2021/09/11/blog</id><content type="html" xml:base="http://localhost:3000/2021/09/11/blog/">&lt;p&gt;&lt;img src=&quot;/assets/images/2021.9.11.blog.cover.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
 
 &lt;div class=&quot;desktop__size &quot; style=&quot;text-align: center;font-family:sans-serif;word-spacing: 0px;&quot;&gt;
     &lt;h2&gt;Using Distributed algorithms to System architecture&lt;/h2&gt;
@@ -1410,110 +1513,4 @@ This type of requirement gathering is &lt;a href=&quot;https://en.wikipedia.org/
 &lt;br /&gt;
 &lt;br /&gt;
 &lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry><entry><title type="html">Muon: Software Package Directory</title><link href="http://localhost:3000/2021/03/20/project/" rel="alternate" type="text/html" title="Muon: Software Package Directory" /><published>2021-03-20T00:00:00+08:00</published><updated>2021-03-20T00:00:00+08:00</updated><id>http://localhost:3000/2021/03/20/project</id><content type="html" xml:base="http://localhost:3000/2021/03/20/project/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/workpebojot/Muon/master/.erb/img/muon-banner.png&quot; class=&quot;rounded img-fluid&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;muon-a-software-project-manage-tool&quot;&gt;Muon: A Software Project Manage Tool&lt;/h1&gt;
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size&quot;&gt;
-  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon/subscription&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Watch workpebojot/Vacuum on GitHub&quot;&gt;
-        Watch
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon/fork&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Fork workpebojot/Vacuum on GitHub&quot;&gt;
-        Fork
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
-        Star
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-  &lt;div class=&quot;d-flex justify-content-start&quot;&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-      &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot/Muon&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star workpebojot/Vacuum on GitHub&quot;&gt;
-        Star
-      &lt;/a&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;p-1&quot;&gt;
-        &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/workpebojot&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Follow @workpebojot on GitHub&quot;&gt;Follow&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;
-  The muon is a software package directory tool. It helps find packages, modules, or libraries you can use for you software project.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
-
-&lt;p&gt;First, clone the repo via git and install dependencies:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git clone &lt;span class=&quot;nt&quot;&gt;--depth&lt;/span&gt; 1 &lt;span class=&quot;nt&quot;&gt;--single-branch&lt;/span&gt; https://github.com/workpebojot/Muon.git your-project-name
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;your-project-name
-&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;starting-development&quot;&gt;Starting Development&lt;/h2&gt;
-
-&lt;p&gt;Start the app in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dev&lt;/code&gt; environment:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn start
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;packaging-for-production&quot;&gt;Packaging for Production&lt;/h2&gt;
-
-&lt;p&gt;To package apps for the local platform:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;npx yarn package
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://opensource.org/licenses/&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/License-MIT%20-yellow.svg&quot; alt=&quot;GPLv3 License&quot; /&gt;&lt;/a&gt; © 2021&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;div class=&quot;desktop__size &quot;&gt;
-  &lt;div class=&quot;d-flex align-items-center&quot;&gt;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;large&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &amp;nbsp;
-    &lt;div class=&quot;align-self-center&quot;&gt;
-      &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button&quot; data-size=&quot;large&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;
-      &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;mobile__size&quot;&gt;
-    &lt;div class=&quot;d-flex align-items-center justify-content-start&quot;&gt;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-            &lt;a href=&quot;https://twitter.com/share?ref_src=twsrc%5Etfw&quot; class=&quot;twitter-share-button align-self-center&quot; data-show-screen-name=&quot;false&quot; data-show-count=&quot;false&quot; data-via=&quot;workpebojot&quot;&gt;Tweet&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-        &lt;/div&gt;
-        &amp;nbsp;
-        &lt;div class=&quot;align-self-center&quot;&gt;
-          &lt;div class=&quot;fb-share-button align-self-center&quot; style=&quot;vertical-align: super;top:-2px&quot; data-href=&quot;https://www.pebojot.com/2021/03/20/project/&quot; data-layout=&quot;button&quot; data-size=&quot;small&quot;&gt;&lt;a target=&quot;_blank&quot; href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;amp;src=sdkpreparse&quot; class=&quot;fb-xfbml-parse-ignore&quot;&gt;Share&lt;/a&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.</summary></entry></feed>
+&lt;br /&gt;&lt;/p&gt;</content><author><name>Pebojot</name></author><summary type="html">The role of the developer in software requirement gathering will vary with each team. Large teams put someone in charge of it. This is the business analyst, the product owner, or the project manager.</summary></entry></feed>
