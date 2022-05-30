@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-bundle exec jekyll serve --port 3000
+bundle exec jekyll serve --livereload --trace --port 3000
