@@ -11,3 +11,4 @@ environment: production
 
 sass:
    sass_dir: assets/css
+   
