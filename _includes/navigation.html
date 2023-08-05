@@ -38,15 +38,6 @@
 <span class="navbar__mobile">
     <div class="d-flex align-items-center gap-1">
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-            {% if item.link=="/"%}
-            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
-                href="{{ item.link }}">
-                <h5>
-                    <span class="home-hover block">
-                        {{ item.name }}
-                    </span>
-                </h5>
-            </a>
             <a class="nav-link active bg-transparent border-0" data-toggle="tabs" href="/blob/">
                 <h5>
                     <span class="home-hover block">
@@ -54,7 +45,6 @@
                     </span>
                 </h5>
             </a>
-            {% endif %}
         </span>
         <!-- <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn-light{% endif %}">
             <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
