@@ -5,8 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
@@ -18,85 +21,99 @@
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   {% feed_meta %}
   {% if page.url=='/' %}
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com" />
-    <meta property="og:title" content="Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Edison Pebojot" />
+  <meta property="og:description"
+    content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@workpebojot" />
+  <meta name="twitter:creator" content="@workpebojot" />
+  <meta property="og:url" content="https://www.pebojot.com" />
+  <meta property="og:title" content="Edison Pebojot" />
+  <meta property="og:description"
+    content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
   {% elsif page.url=='/blog/' %}
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com/blog/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Blog" />
-    <meta property="og:description" content="Here's my blog collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com/blog/" />
-    <meta property="og:title" content="Blog" />
-    <meta property="og:description" content="Here's my blog collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com/blog/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Blog" />
+  <meta property="og:description" content="Here's my blog collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@workpebojot" />
+  <meta name="twitter:creator" content="@workpebojot" />
+  <meta property="og:url" content="https://www.pebojot.com/blog/" />
+  <meta property="og:title" content="Blog" />
+  <meta property="og:description" content="Here's my blog collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705216-bd9a0580-8ed8-11eb-8f9e-41ecca50e396.png" />
   {% elsif page.url=='/event/' %}
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com/event/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Event" />
-    <meta property="og:description" content="Here's my event collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705293-05b92800-8ed9-11eb-9f42-db9db31cc9d9.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com/event/" />
-    <meta property="og:title" content="Event" />
-    <meta property="og:description" content="Here's my event collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705293-05b92800-8ed9-11eb-9f42-db9db31cc9d9.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com/event/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Event" />
+  <meta property="og:description" content="Here's my event collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705293-05b92800-8ed9-11eb-9f42-db9db31cc9d9.png" />
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@workpebojot" />
+  <meta name="twitter:creator" content="@workpebojot" />
+  <meta property="og:url" content="https://www.pebojot.com/event/" />
+  <meta property="og:title" content="Event" />
+  <meta property="og:description" content="Here's my event collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705293-05b92800-8ed9-11eb-9f42-db9db31cc9d9.png" />
   {% elsif page.url=='/project/' %}
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com/project/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Project" />
-    <meta property="og:description" content="Here's my project collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705309-19648e80-8ed9-11eb-8434-38e6a07d5751.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com/project/" />
-    <meta property="og:title" content="Project" />
-    <meta property="og:description" content="Here's my project collection about software development." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705309-19648e80-8ed9-11eb-8434-38e6a07d5751.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com/project/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Project" />
+  <meta property="og:description" content="Here's my project collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705309-19648e80-8ed9-11eb-8434-38e6a07d5751.png" />
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@workpebojot" />
+  <meta name="twitter:creator" content="@workpebojot" />
+  <meta property="og:url" content="https://www.pebojot.com/project/" />
+  <meta property="og:title" content="Project" />
+  <meta property="og:description" content="Here's my project collection about software development." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705309-19648e80-8ed9-11eb-8434-38e6a07d5751.png" />
   {% elsif page.url=='/about/' %}
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com/about/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="About Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705323-297c6e00-8ed9-11eb-876d-2a9ed091aa59.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com/about/" />
-    <meta property="og:title" content="About Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/112705323-297c6e00-8ed9-11eb-876d-2a9ed091aa59.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com/about/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="About Edison Pebojot" />
+  <meta property="og:description"
+    content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705323-297c6e00-8ed9-11eb-876d-2a9ed091aa59.png" />
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@workpebojot" />
+  <meta name="twitter:creator" content="@workpebojot" />
+  <meta property="og:url" content="https://www.pebojot.com/about/" />
+  <meta property="og:title" content="About Edison Pebojot" />
+  <meta property="og:description"
+    content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
+  <meta property="og:image"
+    content="https://user-images.githubusercontent.com/38276345/112705323-297c6e00-8ed9-11eb-876d-2a9ed091aa59.png" />
   {% endif %}
 </head>
 
@@ -117,22 +134,28 @@
 </body>
 
 <script>
-window.onscroll = function() {myFunction()};
+  window.onscroll = function () { myFunction() };
 
-var navbar1 = document.getElementById("navbar1");
-var sticky = navbar1.offsetTop;
+  var navbar1 = document.getElementById("navbar1");
+  var sticky = navbar1.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar1.classList.add("sticky-top");
-    navbar1.classList.add("bg-light");
-    navbar1.classList.add("rounded-bottom");
-  } else {
-    navbar1.classList.remove("sticky-top");
-    navbar1.classList.remove("bg-light");
-    navbar1.classList.remove("rounded-bottom");
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar1.classList.add("sticky-top");
+      navbar1.classList.add("bg-light");
+      navbar1.classList.add("rounded-bottom");
+    } else {
+      navbar1.classList.remove("sticky-top");
+      navbar1.classList.remove("bg-light");
+      navbar1.classList.remove("rounded-bottom");
+    }
   }
-}
+
+  // Get the current year
+  const currentYear = new Date().getFullYear;
+
+  // Update the year in the footer
+  document.getElementById('currentYear').textContent = currentYear;
 </script>
 
 </html>
