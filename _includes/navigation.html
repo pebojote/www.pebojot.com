@@ -37,7 +37,7 @@
 {% endfor %}
 <span class="navbar__mobile">
     <div class="d-flex align-items-center gap-1">
-        <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        <span class="justify-content-start d-flex">
             <a class="nav-link active bg-transparent border-0" data-toggle="tabs" href="/blog/">
                 <h5>
                     <span class="home-hover block">
@@ -60,26 +60,10 @@
                 </h5>
             </a>
         </span>
-        <!-- <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn-light{% endif %}">
-            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-        </a>
-        <a href="/event/" class="btn {% if page.url=='/event/' %}btn-light{% endif %}">
-            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-        </a>
-        <a href="/project/" class="btn {% if page.url=='/project/' %}btn-light{% endif %}">
-            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-        </a>
-        <a href="/about/" role="button" 
-            class="btn {% if page.url!='/about/' %}btn-secondary{% endif %} {% if page.url=='/about/' %}btn-light{% endif %}">
-            <b>
-                About
-            </b>
-        </a> -->
-        <!-- <span id="menu" class="btn">
-            <img id="menu-src" src="/assets/images/menu.webp" >
-        </span> -->
+        <!-- Add other elements you want to align horizontally here -->
     </div>
 </span>
+
 {% for item in site.data.navigation %}
   <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
