@@ -4,7 +4,7 @@
   link: /blog/
 # - name: Event
 #   link: /event/
-# - name: Project
-#   link: /project/
-# - name: About
-#   link: /about/
+- name: Project
+  link: /project/
+- name: About
+  link: /about/
