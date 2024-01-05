@@ -32,7 +32,7 @@ type: photography
 </div>
 
 <!-- Script to dynamically load content into the modal -->
-<script>
+```javascript
     function waitForJQuery() {
         if (typeof $ !== 'undefined') {
             // $ is defined, execute your custom script
@@ -55,4 +55,3 @@ type: photography
 
     // Start waiting for jQuery
     waitForJQuery();
-</script>
