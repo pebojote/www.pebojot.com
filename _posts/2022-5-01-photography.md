@@ -33,15 +33,26 @@ type: photography
 
 <!-- Script to dynamically load content into the modal -->
 <script>
-  $(document).ready(function () {
-    {% for image in image_data %}
-      $('#img{{ forloop.index }}').on('shown.bs.modal', function () {
-        // Replace the placeholder image with the actual image URL for this specific modal
-        var imageUrl = '{{ image.src }}';
+    function waitForJQuery() {
+        if (typeof $ !== 'undefined') {
+            // $ is defined, execute your custom script
+            $(document).ready(function () {
+                {% for image in image_data %}
+                $('#img{{ forloop.index }}').on('shown.bs.modal', function () {
+                    // Replace the placeholder image with the actual image URL for this specific modal
+                    var imageUrl = '{{ image.src }}';
 
-        // Update the src attribute of the image inside the modal
-        $(this).find('.modal-body img').attr('src', imageUrl);
-      });
-    {% endfor %}
-  });
+                    // Update the src attribute of the image inside the modal
+                    $(this).find('.modal-body img').attr('src', imageUrl);
+                });
+                {% endfor %}
+            });
+        } else {
+            // $ is not defined, wait for a short interval and check again
+            setTimeout(waitForJQuery, 50);
+        }
+    }
+
+    // Start waiting for jQuery
+    waitForJQuery();
 </script>
