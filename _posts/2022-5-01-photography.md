@@ -3,117 +3,29 @@ layout: post
 title: Hiking
 author: Pebojot
 date: 2022-05-01
-excerpt: "In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot."
-short_description: In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage
 image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217856&authkey=%21AItpY9YKx-3y1SQ
-gh_logo: https://user-images.githubusercontent.com/38276345/109791640-a0fa0d00-7c4d-11eb-9b7f-ad4b61a56d5c.png
-tag_logo_1: https://user-images.githubusercontent.com/38276345/113083148-4208c300-920e-11eb-8855-a7715a3d9028.png
-tag_logo_2: https://user-images.githubusercontent.com/38276345/113083398-b6dbfd00-920e-11eb-8cf3-68f9b999be2b.png
-tag_logo_3: https://user-images.githubusercontent.com/38276345/113083597-09b5b480-920f-11eb-9e80-d71305ecd431.png
-repo_url: https://github.com/pebojote/www.pebojot.com
 latest: false
 project_url: 2022/05/01/photography/
 type: photography
 ---
 
-<img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217856&authkey=%21AItpY9YKx-3y1SQ" class="rounded img-fluid">
-
-# www.pebojot.com
----
-
-<div class="desktop__size">
-  <div class="d-flex justify-content-start">
-    <div class="p-1">
-      <a class="github-button" href="https://github.com/pebojote/www.pebojot.com/subscription" data-size="large"
-        data-show-count="true" aria-label="Watch pebojote/Vacuum on GitHub">
-        Watch
-      </a>
-    </div>
-    <div class="p-1">
-      <a class="github-button" href="https://github.com/pebojote/www.pebojot.com/fork" data-size="large" data-show-count="true"
-        aria-label="Fork pebojote/Vacuum on GitHub">
-        Fork
-      </a>
-    </div>
-    <div class="p-1">
-      <a class="github-button" href="https://github.com/pebojote/www.pebojot.com" data-size="large" data-show-count="true"
-        aria-label="Star pebojote/Vacuum on GitHub">
-        Star
-      </a>
-    </div>
-    <div class="p-1">
-        <a class="github-button" href="https://github.com/pebojote" data-size="large" data-show-count="true" aria-label="Follow @pebojote on GitHub">Follow</a>
-    </div>
-  </div>
-</div>
-
-<div class="mobile__size">
-  <div class="d-flex justify-content-start">
-    <div class="p-1">
-      <a class="github-button" href="https://github.com/pebojote/www.pebojot.com" data-size="large" data-show-count="true"
-        aria-label="Star pebojote/Vacuum on GitHub">
-        Star
-      </a>
-    </div>
-    <div class="p-1">
-        <a class="github-button" href="https://github.com/pebojote" data-size="large" data-show-count="true" aria-label="Follow @pebojote on GitHub">Follow</a>
-    </div>
-  </div>
-</div>
-
-<br>
-
-In March of 2021, Edison Pebojot launched the www.pebojot.com production version. It has a homepage that provides an overview of the entire page. There are three tabs: blog, event, and project. There is also a about tag if you want to learn more about Edison Pebojot.
-
-## Motivation
----
-Edison Pebojot's goal is to demonstrate that his relevant activity is in the software development industry. It encapsulates the most crucial information.
-
-## Screenshot
----
-<img src="https://user-images.githubusercontent.com/38276345/113078688-2dc0c800-9206-11eb-846f-33ff5bc6ecc5.jpeg" class="rounded img-fluid"/>
-
-
-## Technology and Framework used
----
-- Jekyll
-- Ruby Programming Language
-- JavaScript
-
-## Contribute
----
-The project's development version, on the other hand, is private. If you'd like to help, please contact me at pebojot.edison.work@outlook.com.
-
-## License
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) &copy; 2021
-
----
-
-<div class="desktop__size ">
-  <div class="d-flex align-items-center">
-    <div class="align-self-center">
-      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/12/25/project/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-    </div>
-    &nbsp;
-    <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-        data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
-</div>
-
-<div class="mobile__size">
-    <div class="d-flex align-items-center justify-content-start">
-        <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        &nbsp;
-        <div class="align-self-center">
-          <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2020/12/25/project/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+ <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM" class="img-fluid" alt="image">
+            </div>
+            <div class="col-md-4 mt-3 col-lg-3">
+                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38" class="img-fluid" alt="image">
+            </div>
+            <!-- Repeat the above div for each image in your gallery -->
         </div>
     </div>
-</div>
 <br />
 <br />
 <br />
