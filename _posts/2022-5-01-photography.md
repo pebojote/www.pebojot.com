@@ -9,71 +9,24 @@ project_url: 2022/05/01/photography/
 type: photography
 ---
 
- <div class="container">
-        <div class="row">
-            <div class="col-md-4 mt-3 col-lg-3">
-             <!-- Image thumbnail -->
-            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img1">
-             <!-- Modal -->
-                <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class="container">
+  <div class="row">
+    {% assign image_data = site.data.image_gallery %}
+    {% for image in image_data %}
+      <div class="col-md-4 mt-3 col-lg-3">
+        <!-- Image thumbnail -->
+        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}" data-bs-toggle="modal" data-bs-target="#img{{ forloop.index }}">
+        <!-- Modal -->
+        <div class="modal fade" id="img{{ forloop.index }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
+              </div>
             </div>
-            <div class="col-md-4 mt-3 col-lg-3">
-             <!-- Image thumbnail -->
-            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img2">
-             <!-- Modal -->
-                <div class="modal fade" id="img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mt-3 col-lg-3">
-             <!-- Image thumbnail -->
-            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img3">
-             <!-- Modal -->
-                <div class="modal fade" id="img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mt-3 col-lg-3">
-             <!-- Image thumbnail -->
-            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img4">
-             <!-- Modal -->
-                <div class="modal fade" id="img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-xl">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38" class="img-fluid" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--close row-->
           </div>
-            <!-- Repeat the above div for each image in your gallery -->
         </div>
-    </div>
-<br />
-<br />
-<br />
-<br />
-<br />
+      </div>
+    {% endfor %}
+  </div>
+</div>
