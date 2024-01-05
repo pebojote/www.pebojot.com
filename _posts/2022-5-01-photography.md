@@ -12,7 +12,7 @@ tag_logo_2: https://user-images.githubusercontent.com/38276345/113083398-b6dbfd0
 tag_logo_3: https://user-images.githubusercontent.com/38276345/113083597-09b5b480-920f-11eb-9e80-d71305ecd431.png
 repo_url: https://github.com/pebojote/www.pebojot.com
 latest: false
-project_url: hike/photography/
+project_url: 2022/05/01/photography/
 type: photography
 ---
 
