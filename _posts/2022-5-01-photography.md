@@ -55,9 +55,9 @@ type: photography
             </div>
             <div class="col-md-4 mt-3 col-lg-3">
              <!-- Image thumbnail -->
-            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img3">
+            <img src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38" class="img-fluid" alt="image" data-bs-toggle="modal" data-bs-target="#img4">
              <!-- Modal -->
-                <div class="modal fade" id="img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered modal-xl">
                         <div class="modal-content">
                             <div class="modal-body">
