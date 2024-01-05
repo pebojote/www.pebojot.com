@@ -30,3 +30,18 @@ type: photography
     {% endfor %}
   </div>
 </div>
+
+<!-- Script to dynamically load content into the modal -->
+<script>
+  $(document).ready(function () {
+    {% for image in image_data %}
+      $('#img{{ forloop.index }}').on('shown.bs.modal', function () {
+        // Replace the placeholder image with the actual image URL for this specific modal
+        var imageUrl = '{{ image.src }}';
+
+        // Update the src attribute of the image inside the modal
+        $(this).find('.modal-body img').attr('src', imageUrl);
+      });
+    {% endfor %}
+  });
+</script>
