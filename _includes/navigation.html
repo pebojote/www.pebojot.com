@@ -1,21 +1,24 @@
 <span class="navbar__mobile">
     <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle home-hover block" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Explore
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="home-hover block">
+                Explore
+            </span>
         </a>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             {% assign nav_items = site.data.navigation %}
             {% for item in nav_items %}
-                {% if item.link and item.name %}
-                    <li>
-                        <a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}" title="{{ item.title }}">
-                            <span class="home-hover block">
-                                {{ item.name }}
-                            </span>
-                        </a>
-                    </li>
-                {% endif %}
+            {% if item.link and item.name %}
+            <li>
+                <a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}"
+                    title="{{ item.title }}">
+                    <span class="home-hover block">
+                        {{ item.name }}
+                    </span>
+                </a>
+            </li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>
