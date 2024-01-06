@@ -15,43 +15,46 @@ type: photography
     {% for image in image_data %}
       <div class="col-md-4 mt-3 col-lg-3">
         <!-- Image thumbnail -->
-        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}" data-bs-toggle="modal" data-bs-target="#img{{ forloop.index }}">
-        <!-- Modal -->
-        <div class="modal fade" id="img{{ forloop.index }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered modal-xl">
-            <div class="modal-content">
-              <div class="modal-body">
-                <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
-              </div>
-            </div>
-          </div>
+        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}" onclick="expandImage(this)">
+        <!-- Expanded Image (Initially Hidden) -->
+        <div class="expanded-image" id="expandedImage{{ forloop.index }}">
+          <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
         </div>
       </div>
     {% endfor %}
   </div>
 </div>
 
-<!-- Script to dynamically load content into the modal -->
-```javascript
-    function waitForJQuery() {
-        if (typeof $ !== 'undefined') {
-            // $ is defined, execute your custom script
-            $(document).ready(function () {
-                {% for image in image_data %}
-                $('#img{{ forloop.index }}').on('shown.bs.modal', function () {
-                    // Replace the placeholder image with the actual image URL for this specific modal
-                    var imageUrl = '{{ image.src }}';
+<style>
+  .expanded-image {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+  }
 
-                    // Update the src attribute of the image inside the modal
-                    $(this).find('.modal-body img').attr('src', imageUrl);
-                });
-                {% endfor %}
-            });
-        } else {
-            // $ is not defined, wait for a short interval and check again
-            setTimeout(waitForJQuery, 50);
-        }
+  .expanded-image img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+  }
+</style>
+
+<script>
+  function expandImage(thumbnail) {
+    var thumbnailIndex = thumbnail.getAttribute("data-index");
+    var expandedImage = document.getElementById("expandedImage" + thumbnailIndex);
+
+    if (expandedImage.style.display === "none") {
+      expandedImage.style.display = "flex"; // Display the expanded image
+    } else {
+      expandedImage.style.display = "none"; // Hide the expanded image
     }
-
-    // Start waiting for jQuery
-    waitForJQuery();
+  }
+</script>
