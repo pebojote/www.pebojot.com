@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 #navbar {
   overflow: hidden;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Example shadow, adjust as needed */
@@ -5,6 +14,7 @@
 
 .content {
   padding: 16px;
+  flex: 1;
 }
 
 .sticky {
