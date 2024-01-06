@@ -13,10 +13,16 @@ type: adventure
   <div class="row p-0">
     {% assign reversed_adventure_data = site.data.adventure_gallery | reverse %}
     {% for adventure in reversed_adventure_data %}
-      <div class="col-md-4 mt-3 col-lg-3 p-0">
-        <!-- Image thumbnail -->
-        <img src="{{ adventure.src }}" class="img-fluid" alt="{{ adventure.alt }}">
+    <div class="col-md-4 mt-3 col-lg-3 p-0">
+      {% if adventure.type=="video" %}
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="{{ adventure.src }}" class="embed-responsive-item" frameborder="0" scrolling="no"
+          allowfullscreen></iframe>
       </div>
+      {% else %}
+      <img src="{{ adventure.src }}" class="img-fluid" alt="{{ adventure.alt }}">
+      {% endif %}
+    </div>
     {% endfor %}
   </div>
 </div>
