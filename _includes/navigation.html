@@ -1,56 +1,70 @@
 {% for item in site.data.navigation %}
-  {% if item.link=="/" %}
-    <span class="d-flex flex-grow-1">
-      <span class="navbar__desktop">
+{% if item.link=="/"%}
+<span class="d-flex flex-grow-1">
+    <span class="navbar__desktop">
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-          {% if item.link=="/" %}
-            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs" href="{{ item.link }}">
-              <span class="home-hover block">
-                {{ item.name }}
-              </span>
+            {% if item.link=="/"%}
+            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
+                href="{{ item.link }}">
+                <span class="home-hover block">
+                    {{ item.name }}
+                </span>
             </a>
-          {% endif %}
+            {% endif %}
         </span>
-      </span>
-      <span class="navbar__mobile">
-        <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="mobileDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {{ item.name }}
-          </button>
-          <div class="dropdown-menu" aria-labelledby="mobileDropdown">
-            <a class="dropdown-item {% if page.url==item.link %}active{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
-            <!-- Add more dropdown items if needed -->
-          </div>
-        </div>
-      </span>
     </span>
-  {% endif %}
+    <span class="navbar__mobile">
+        <!-- <a href="/" class="btn {% if page.url=='/' %}btn btn-light{% endif %}" style="margin: 2px;">
+            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
+        </a> -->
+        <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+            {% if item.link=="/"%}
+            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
+                href="{{ item.link }}">
+                <span class="home-hover block">
+                    {{ item.name }}
+                </span>
+            </a>
+            {% endif %}
+        </span>
+    </span>
+</span>
+{% endif %}
 {% endfor %}
-
-<!-- Additional HTML code for other elements (e.g., navbar__mobile, navbar__desktop) -->
-
+<!-- Existing code for navbar__mobile -->
 <span class="navbar__mobile">
-  <div class="d-flex align-items-center gap-1">
-    <!-- Your existing mobile navigation buttons -->
-    <a href="/blog/" class="btn {% if page.url=='/blog/' %}btn-light{% endif %}">
-      <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-    </a>
-    <a href="/project/" class="btn {% if page.url=='/project/' %}btn-light{% endif %}">
-      <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-    </a>
-  </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="mobileNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Navigation
+      </button>
+      <div class="dropdown-menu" aria-labelledby="mobileNavbarDropdown">
+        <a class="dropdown-item {% if page.url=='/blog/' %}active{% endif %}" href="/blog/">
+          <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog"> Blog
+        </a>
+        <!-- Uncomment the lines below if you want to include more dropdown items -->
+        <!-- <a class="dropdown-item {% if page.url=='/event/' %}active{% endif %}" href="/event/">
+          <img src="/assets/images/event.webp" class="img-fluid" alt="Event"> Event
+        </a> -->
+        <a class="dropdown-item {% if page.url=='/project/' %}active{% endif %}" href="/project/">
+          <img src="/assets/images/project.webp" class="img-fluid" alt="Project"> Project
+        </a>
+        <!-- Add more dropdown items if needed -->
+      </div>
+    </div>
+  </span>
+  
+{% for item in site.data.navigation %}
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        {% if item.link!="/"%}
+        <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
+            href="{{ item.link }}">
+            <span class="home-hover block">
+                {{ item.name }}
+            </span>
+        </a>
+        {% endif %}
+    </span>
 </span>
 
-{% for item in site.data.navigation %}
-  <span class="navbar__desktop">
-    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-      {% if item.link!="/" %}
-        <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs" href="{{ item.link }}">
-          <span class="home-hover block">
-            {{ item.name }}
-          </span>
-        </a>
-      {% endif %}
-    </span>
-  </span>
 {% endfor %}
