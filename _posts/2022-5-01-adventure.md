@@ -9,13 +9,13 @@ project_url: 2022/05/01/adventure/
 type: adventure
 ---
 
-<div class="container">
+<div class="container custom-full-page-image">
   <div class="row">
     {% assign reversed_adventure_data = site.data.adventure_gallery | reverse %}
     {% for adventure in reversed_adventure_data %}
       <div class="col-md-4 mt-3 col-lg-3">
         <!-- Image thumbnail -->
-        <img src="{{ adventure.src }}" class="img-fluid custom-full-page-image" alt="{{ adventure.alt }}">
+        <img src="{{ adventure.src }}" class="img-fluid" alt="{{ adventure.alt }}">
       </div>
     {% endfor %}
   </div>
