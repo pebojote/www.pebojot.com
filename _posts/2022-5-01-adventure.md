@@ -15,11 +15,12 @@ type: adventure
     {% for adventure in reversed_adventure_data %}
     <div class="col-md-4 mt-3 col-lg-3 p-0">
       {% if adventure.type=="video" %}
-      <iframe src="{{ adventure.src }}" class="h-100" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      [![Click to play](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)]({{ adventure.src }})
       {% else %}
-      <img src="{{ adventure.src }}" class="img-fluid" alt="{{ adventure.alt }}">
+      ![{{ adventure.alt }}]({{ adventure.src }}){:class="img-fluid"}
       {% endif %}
     </div>
     {% endfor %}
   </div>
 </div>
+
