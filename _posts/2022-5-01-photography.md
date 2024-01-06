@@ -13,12 +13,10 @@ type: photography
   <div class="row">
     {% assign image_data = site.data.image_gallery %}
     {% for image in image_data %}
-      <div class="col-12 mt-3">
-        <!-- Expanded Image -->
-        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
+      <div class="col-md-4 mt-3 col-lg-3">
+        <!-- Image thumbnail -->
+        <img src="{{ image.src }}" class="img-fluid custom-img" alt="{{ image.alt }}">
       </div>
     {% endfor %}
   </div>
 </div>
-
-
