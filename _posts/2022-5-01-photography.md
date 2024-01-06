@@ -15,12 +15,9 @@ type: photography
     {% for image in image_data %}
       <div class="col-md-4 mt-3 col-lg-3">
         <!-- Image thumbnail -->
-        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}" onclick="expandImage(this)">
-        <!-- Expanded Image (Initially Hidden) -->
-        <div class="expanded-image" id="expandedImage{{ forloop.index }}">
-          <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
-        </div>
+        <img src="{{ image.src }}" class="img-fluid" alt="{{ image.alt }}">
       </div>
     {% endfor %}
   </div>
 </div>
+
