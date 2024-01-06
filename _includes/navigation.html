@@ -2,7 +2,8 @@
     <div class="dropdown">
         <a class="btn btn-secondary dropdown-toggle home-hover block" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
             aria-expanded="false">
-            <i class="fas fa-bars"></i>
+            <!-- Use an initial image, e.g., menu-open.webp -->
+            <img id="menuIcon" src="/assets/images/menu-open.webp" alt="Menu Open" class="img-fluid">
         </a>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             {% assign nav_items = site.data.navigation %}
@@ -20,6 +21,29 @@
         </ul>
     </div>
 </span>
+
+<script>
+    $(document).ready(function () {
+        // Initial state
+        var menuIcon = $('#menuIcon');
+        var isOpen = false;
+
+        // Toggle the menu icon on click
+        $('#dropdownMenuLink').click(function () {
+            if (isOpen) {
+                // Change to menu-open when closing
+                menuIcon.attr('src', '/assets/images/menu-open.webp');
+            } else {
+                // Change to menu-close when opening
+                menuIcon.attr('src', '/assets/images/menu-close.webp');
+            }
+
+            isOpen = !isOpen; // Toggle the state
+        });
+    });
+</script>
+
+
 
 
 {% for item in site.data.navigation %}
