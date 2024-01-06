@@ -9,6 +9,7 @@ project_url: 2022/05/01/photography/
 type: photography
 ---
 
+<div class="container">
   <div class="row">
     {% assign reversed_image_data = site.data.image_gallery | reverse %}
     {% for image in reversed_image_data %}
@@ -18,3 +19,4 @@ type: photography
       </div>
     {% endfor %}
   </div>
+</div>

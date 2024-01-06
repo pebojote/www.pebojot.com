@@ -92,14 +92,38 @@
   }
 }
 
-
+/* Custom styling for different image sizes */
 .custom-img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
-  border: 1px solid #ddd; /* Optional: Add a border around images */
-  padding: 5px; /* Optional: Add padding around images */
 }
 
-.container-fluid {
-  padding: 20px; /* Optional: Add padding to the container if needed */
+@media (min-width: 576px) {
+  /* Adjust styles for small devices (sm) */
+  .custom-img {
+    /* Customize as needed for small devices */
+  }
 }
+
+@media (min-width: 768px) {
+  /* Adjust styles for medium devices (md) */
+  .custom-img {
+    /* Customize as needed for medium devices */
+  }
+}
+
+@media (min-width: 992px) {
+  /* Adjust styles for large devices (lg) */
+  .custom-img {
+    /* Customize as needed for large devices */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjust styles for extra-large devices (xl) */
+  .custom-img {
+    /* Customize as needed for extra-large devices */
+  }
+}
+
+
