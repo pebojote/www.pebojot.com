@@ -36,26 +36,33 @@
 <!-- Existing code for navbar__mobile -->
 <span class="navbar__mobile">
     <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="mobileNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Navigation
-      </button>
-      <div class="dropdown-menu" aria-labelledby="mobileNavbarDropdown">
-        <a class="dropdown-item {% if page.url=='/blog/' %}active{% endif %}" href="/blog/" title="Visit the Blog">
-          <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog" title="Visit the Blog"> Blog
+        <a class="btn btn-secondary dropdown-toggle home-hover block" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fas fa-bars"></i>
         </a>
-        <!-- Uncomment the lines below if you want to include more dropdown items -->
-        <!-- <a class="dropdown-item {% if page.url=='/event/' %}active{% endif %}" href="/event/" title="Check out Events">
-          <img src="/assets/images/event.webp" class="img-fluid" alt="Event" title="Check out Events"> Event
-        </a> -->
-        <a class="dropdown-item {% if page.url=='/project/' %}active{% endif %}" href="/project/" title="Explore Projects">
-          <img src="/assets/images/project.webp" class="img-fluid" alt="Project" title="Explore Projects"> Project
-        </a>
-        <!-- Add more dropdown items if needed -->
-      </div>
+    
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+                <a class="dropdown-item {% if page.url=='/blog/' %}active{% endif %}" href="/blog/" title="Visit the Blog">
+                    <span class="home-hover block">
+                       Blog
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item {% if page.url=='/project/' %}active{% endif %}"href="/project/"
+                    title="Explore Projects">
+                    <span class="home-hover block">
+                       Projects
+                    </span>
+                </a>
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
     </div>
-  </span>
-  
-  
+</span>
+
+
 {% for item in site.data.navigation %}
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
