@@ -53,7 +53,7 @@
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
-  - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
   thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114562&authkey=%21AHMv24m54B2Ju0o"
   alt: "Image 5"
   latest: "false"
