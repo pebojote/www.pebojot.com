@@ -30,10 +30,20 @@
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38"
   alt: "Image 4"
-  latest: "true"
+  latest: "false"
   type: "Hike"
   title: "The Changing Seasons"
   mobile_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn."
   desktop_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. It’s like nature is painting a masterpiece right before our eyes. Let’s take a moment to appreciate this beautiful transition. It’s not every day we get to witness such a spectacle."
+  date: "2022-05-01"  # Corrected date format
+  page_url: "https://www.pebojot.com/2022/05/01/adventure/"
+
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
+  alt: "Image 5"
+  latest: "true"
+  type: "Hike"
+  title: "Embracing the Horizon"
+  mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
+  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
