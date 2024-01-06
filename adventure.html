@@ -3,9 +3,9 @@ layout: default
 title: Adventure
 ---
 
-<div class="container-fluid">
+<div class="container-fluid p-0">
   <div class="row rounded-left">
-    <div class="col p-2">
+    <div class="col p-0">
       <span class=" mobile__size">
         <div class="d-flex justify-content-right">
           <a href="/project/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
@@ -16,7 +16,7 @@ title: Adventure
       <div class="row row-cols-1 row-cols-md-3 g-4 p-1">
         {% for post in site.posts %}
         {% if post.type=="adventure" %}
-        <div class="col">
+        <div class="col p-0">
           <div class="card h-100">
             <div class="card-header">
               {{ post.title }}
