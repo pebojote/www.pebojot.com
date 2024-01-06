@@ -158,26 +158,26 @@ title: Home
                             <div class="col-md-6">
                                 <img src="{{ image.src }}" class="img-thumbnail" alt="{{ post.alt }}">
                             </div>
-                            <!-- <div class="col-md-6">
+                            <div class="col-md-6">
                                 <div class="card-body">
                                     <h4 class="card-title">{{ post.title }}</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            {{ post.excerpt }}
+                                            {{ image.title }}
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            {{ post.short_description }}
+                                            {{ image.description }}
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            {{ post.date | date_to_string }}
+                                            {{ image.date | date_to_string }}
                                         </small>
                                     </p>
                                 </div>
-                            </div> -->
+                            </div>
                         </div>
                     </div>
                 </a>
