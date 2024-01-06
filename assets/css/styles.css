@@ -125,15 +125,3 @@
     /* Customize as needed for extra-large devices */
   }
 }
-
-
-.custom-img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ddd; /* Optional: Add a border around images */
-  padding: 5px; /* Optional: Add padding around images */
-}
-
-.container-fluid {
-  padding: 20px; /* Optional: Add padding to the container if needed */
-}

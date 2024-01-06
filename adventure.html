@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Photography
+title: Adventure
 ---
 
 <div class="container-fluid">
@@ -9,13 +9,13 @@ title: Photography
       <span class=" mobile__size">
         <div class="d-flex justify-content-right">
           <a href="/project/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
-            <h1>Photography</h1>
+            <h1>Adventure</h1>
           </a>
         </div>
       </span>
       <div class="row row-cols-1 row-cols-md-3 g-4 p-1">
         {% for post in site.posts %}
-        {% if post.type=="photography" %}
+        {% if post.type=="adventure" %}
         <div class="col">
           <div class="card h-100">
             <div class="card-header">
@@ -34,20 +34,5 @@ title: Photography
 
       </div>
     </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    {% for image in site.images %}
-    <div class="col">
-      <div class="card shadow-sm">
-        <img src="{{ image.image_path }}" alt="{{ image.title }}" class="bd-placeholder-img card-img-top">
-        <div class="card-body">
-          <p class="card-text">{{ image.title }}</p>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
   </div>
 </div>
