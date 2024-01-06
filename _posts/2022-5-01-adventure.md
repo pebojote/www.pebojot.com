@@ -15,12 +15,7 @@ type: adventure
     {% for adventure in reversed_adventure_data %}
     <div class="col-md-4 mt-3 col-lg-3 p-0">
       {% if adventure.type=="video" %}
-      <div class="embed-responsive embed-responsive-16by9">
-          <video class="embed-responsive-item w-100" controls autoplay>
-              <source src="{{ adventure.thumbnail }}" type="video/mp4">
-              Your browser does not support the video tag.
-          </video>
-      </div>
+      <iframe src="https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114563&authkey=!ACWgmaMIxjjH0SI" width="320" height="320" frameborder="0" scrolling="no" allowfullscreen></iframe>
       {% else %}
       <img src="{{ adventure.src }}" class="img-fluid" alt="{{ adventure.alt }}">
       {% endif %}
