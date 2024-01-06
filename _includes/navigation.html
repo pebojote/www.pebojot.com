@@ -45,28 +45,6 @@
 {% endif %}
 {% endfor %}
 
-{% for item in site.data.navigation %}
-{% if item.link=="/"%}
-<span class="d-flex">
-    <span class="navbar__mobile">
-        <!-- <a href="/" class="btn {% if page.url=='/' %}btn btn-light{% endif %}" style="margin: 2px;">
-            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-        </a> -->
-        <span class="nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-            {% if item.link=="/"%}
-            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
-                href="{{ item.link }}">
-                <span class="home-hover block">
-                    {{ item.name }}
-                </span>
-            </a>
-            {% endif %}
-        </span>
-    </span>
-</span>
-{% endif %}
-{% endfor %}
-
 <!-- Navigation -->
 <!-- Existing code for navbar__mobile -->
 
