@@ -1,3 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-full-page-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* Cover the entire container without stretching */
+}
+
 #navbar {
   overflow: hidden;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Example shadow, adjust as needed */
@@ -133,11 +144,4 @@
   width: 100%;
   color: white;
   text-align: center;
-}
-
-.background-image {
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
