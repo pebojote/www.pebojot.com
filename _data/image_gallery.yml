@@ -3,10 +3,11 @@
   latest: "false"
   type: "Hike"
   title: "Embracing the Horizon"
-  mobile_description: "Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment. "
+  mobile_description: "Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment."
   desktop_description: "Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment. It feels like we can touch the sky! Let’s take a moment to appreciate this, to breathe in the fresh air, and to realize how far we’ve come. This is what adventure feels like, isn’t it?"
-  date: 2022-05-1
+  date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/photography/"
+
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc"
   alt: "Image 2"
   latest: "false"
@@ -14,8 +15,9 @@
   title: "Journey Through the Green Wilderness"
   mobile_description: "Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature."
   desktop_description: "Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature. Can you hear that? The rustling leaves and distant calls of wildlife. It’s as if the forest is sharing its secrets with us. Let’s keep going and see what other wonders this trail has in store for us."
-  date: 2022-05-1
+  date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/photography/"
+
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM"
   alt: "Image 3"
   latest: "false"
@@ -23,14 +25,15 @@
   title: "A Moment of Rest Amidst Nature"
   mobile_description: "Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe."
   desktop_description: "Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe. The journey has been long, but look at the view – it’s all worth it! Let’s enjoy our snacks and recharge before we continue our adventure."
-  date: 2022-05-1
+  date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/photography/"
+
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38"
   alt: "Image 4"
   latest: "true"
   type: "Hike"
   title: "The Changing Seasons"
-  mobile_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn.""
-  desktop_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. It’s like nature is painting a masterpiece right before our eyes. Let’s take a moment to appreciate this beautiful transition. It’s not every day we get to witness such a spectacle. "
-  date: 2022-05-1
+  mobile_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn."
+  desktop_description: "Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. It’s like nature is painting a masterpiece right before our eyes. Let’s take a moment to appreciate this beautiful transition. It’s not every day we get to witness such a spectacle."
+  date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/photography/"
