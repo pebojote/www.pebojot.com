@@ -1,4 +1,5 @@
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0"
   alt: "Image 1"
   latest: "false"
   type: "Hike"
@@ -9,6 +10,7 @@
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc"
+  thumbnail:"https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217838&authkey=%21ANRlrvDPy_9TzSc"
   alt: "Image 2"
   latest: "false"
   type: "Hike"
@@ -19,6 +21,7 @@
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217883&authkey=%21AONtcUAH4uc9sFM"
   alt: "Image 3"
   latest: "false"
   type: "Hike"
@@ -29,6 +32,7 @@
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217832&authkey=%21ANfF2RckoipmY38"
   alt: "Image 4"
   latest: "false"
   type: "Hike"
@@ -39,11 +43,12 @@
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114562&authkey=%21AHMv24m54B2Ju0o"
   alt: "Image 5"
   latest: "true"
   type: "Hike"
   title: "Embracing the Horizon"
   mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
-  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur. Above, the sky is a canvas of bright clarity, dotted with clouds that add a touch of whimsy to the scene. The serenity of the moment is overwhelming, filling me with a sense of awe and tranquility. This is a moment of connection, a reminder of our place in the grand scheme of things. It’s a moment I’ll carry with me, a memory etched against the backdrop of the sky."
+  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
