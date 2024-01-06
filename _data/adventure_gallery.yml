@@ -64,10 +64,9 @@
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/adventure/"
 
-
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114563&authkey=!ACWgmaMIxjjH0SI"
   thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114563&authkey=!ACWgmaMIxjjH0SI"
-  alt: "Image 5"
+  alt: "Video 1"
   latest: "true"
   type: "video"
   title: "Embracing the Horizon"
