@@ -22,7 +22,10 @@ title: Home
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
             <p class="lead" style="text-align: justify">
-                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I have a passion for outdoor adventures and various other activities. Capturing life’s moments through photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life, and the knowledge I’ve gained.
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
                 <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
@@ -134,28 +137,29 @@ title: Home
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
-    <!-- <div class="mt-3 mb-3">
+    <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
                 {% for post in site.posts %}
-                {% if post.latest==true %}
-                {% if post.type=="event" %}
+                {% if post.type=="photography" %}
                 <a href="{{ post.event_url }}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ post.image_url }}" class="img-thumbnail" alt="{{ post.title }}">
+                                {% if post.latest=="true" %}
+                                <img src="{{ post.src }}" class="img-thumbnail" alt="{{ post.alt }}">
+                                {% endif %}
                             </div>
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="card-body">
                                     <h4 class="card-title">{{ post.title }}</h4>
                                     <span class="desktop__size ">
@@ -174,7 +178,7 @@ title: Home
                                         </small>
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </a>
@@ -183,12 +187,11 @@ title: Home
                     See More
                 </a>
                 {% endif %}
-                {% endif %}
                 {% endfor %}
             </div>
         </div>
     </div>
-    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div> -->
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
             Latest Project

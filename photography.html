@@ -14,23 +14,23 @@ title: Photography
         </div>
       </span>
       <div class="row row-cols-1 row-cols-md-3 g-4 p-1">
-        {% for post in site.posts %}
-        {% if post.type=="photography" %}
-        <div class="col">
-          <div class="card h-100">
-            <div class="card-header">
-              {{ post.title }}
-            </div>
-            <a href="{{ post.url }}" class="btn btn-light" role="button">
-              <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
-            </a>
-            <div class="card-footer">
-              <small class="text-muted">{{ post.date | date_to_string }}</small>
+        {% assign reversed_posts = site.posts | where: "type", "photography" | reverse %}
+        {% for post in reversed_posts %}
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-header">
+                {{ post.title }}
+              </div>
+              <a href="{{ post.url }}" class="btn btn-light" role="button">
+                <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+              </a>
+              <div class="card-footer">
+                <small class="text-muted">{{ post.date | date_to_string }}</small>
+              </div>
             </div>
           </div>
-        </div>
-        {% endif %}
         {% endfor %}
+        
       </div>
     </div>
   </div>
