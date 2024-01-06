@@ -150,14 +150,13 @@ title: Home
             <div class="list-group m-1">
                 {% for post in site.posts %}
                 {% if post.type=="photography" %}
+                {% if post.latest=="true" %}
                 <a href="{{ post.event_url }}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                {% if post.latest=="true" %}
                                 <img src="{{ post.src }}" class="img-thumbnail" alt="{{ post.alt }}">
-                                {% endif %}
                             </div>
                             <!-- <div class="col-md-6">
                                 <div class="card-body">
@@ -186,6 +185,7 @@ title: Home
                     style="background-color: transparent">
                     See More
                 </a>
+                {% endif %}
                 {% endif %}
                 {% endfor %}
             </div>
