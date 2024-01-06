@@ -16,7 +16,7 @@ type: adventure
     <div class="col-md-4 mt-3 col-lg-3 p-0">
       {% if adventure.type=="video" %}
       <div class="embed-responsive embed-responsive-16by9">
-        <video class="embed-responsive-item w-100" controls autoplay>
+        <video class="embed-responsive-item w-100" controls>
           <source src="{{ adventure.src }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
