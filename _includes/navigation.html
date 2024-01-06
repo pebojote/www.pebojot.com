@@ -1,6 +1,7 @@
 {% for item in site.data.navigation %}
 {% if item.link=="/"%}
 <span class="d-flex flex-grow-1">
+    <!-- Name -->
     <span class="navbar__desktop">
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
             {% if item.link=="/"%}
@@ -32,6 +33,7 @@
 {% endif %}
 {% endfor %}
 <!-- Existing code for navbar__mobile -->
+<!-- Navigation -->
 <span class="navbar__mobile">
     <div class="dropdown">
       <button class="btn btn-secondary dropdown-toggle" type="button" id="mobileNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
