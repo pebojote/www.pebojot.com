@@ -14,40 +14,40 @@ title: Photography
         </div>
       </span>
       <div class="row row-cols-1 row-cols-md-3 g-4 p-1">
-        {% assign reversed_posts = site.posts | where: "type", "photography" | reverse %}
-        {% for post in reversed_posts %}
-          <div class="col">
-            <div class="card h-100">
-              <div class="card-header">
-                {{ post.title }}
-              </div>
-              <a href="{{ post.url }}" class="btn btn-light" role="button">
-                <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
-              </a>
-              <div class="card-footer">
-                <small class="text-muted">{{ post.date | date_to_string }}</small>
-              </div>
+        {% for post in site.posts %}
+        {% if post.type=="photography" %}
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-header">
+              {{ post.title }}
+            </div>
+            <a href="{{ post.url }}" class="btn btn-light" role="button">
+              <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+            </a>
+            <div class="card-footer">
+              <small class="text-muted">{{ post.date | date_to_string }}</small>
             </div>
           </div>
+        </div>
+        {% endif %}
         {% endfor %}
-        
+
       </div>
     </div>
   </div>
 </div>
 
 <div class="container">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      {% for image in site.images %}
-        <div class="col">
-          <div class="card shadow-sm">
-            <img src="{{ image.image_path }}" alt="{{ image.title }}" class="bd-placeholder-img card-img-top">
-            <div class="card-body">
-              <p class="card-text">{{ image.title }}</p>
-            </div>
-          </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    {% for image in site.images %}
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="{{ image.image_path }}" alt="{{ image.title }}" class="bd-placeholder-img card-img-top">
+        <div class="card-body">
+          <p class="card-text">{{ image.title }}</p>
         </div>
-      {% endfor %}
+      </div>
     </div>
+    {% endfor %}
   </div>
-  
+</div>

@@ -11,8 +11,8 @@ type: photography
 
 <div class="container">
   <div class="row">
-    {% assign image_data = site.data.image_gallery %}
-    {% for image in image_data %}
+    {% assign reversed_image_data = site.data.image_gallery | reverse %}
+    {% for image in reversed_image_data %}
       <div class="col-md-4 mt-3 col-lg-3">
         <!-- Image thumbnail -->
         <img src="{{ image.src }}" class="img-fluid custom-img" alt="{{ image.alt }}">
