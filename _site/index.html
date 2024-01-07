@@ -1,14 +1,15 @@
 <!doctype html>
-<html>
+<html class="h-100">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  
   <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
   
   <title>Edison Pebojot</title>
@@ -16,49 +17,161 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
   
-    <!-- facebook -->
-    <meta property="og:url" content="https://www.pebojot.com" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
-    <!-- twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@workpebojot" />
-    <meta name="twitter:creator" content="@workpebojot" />
-    <meta property="og:url" content="https://www.pebojot.com" />
-    <meta property="og:title" content="Edison Pebojot" />
-    <meta property="og:description" content="Edison Nacional Pebojot is a software developer. Pebojot was raised in the Philippines and attended AMA Computer University." />
-    <meta property="og:image" content="https://user-images.githubusercontent.com/38276345/111453993-205c0600-874f-11eb-85a5-13d95bd81507.png" />
+  <!-- facebook -->
+  <meta property="og:url" content="https://www.pebojot.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Edison Pebojot" />
+  <meta property="og:description"
+    content="I love outdoor activities, I am an engineer and a PhD student, sharing my knowledge and experiences to the world." />
+  <meta property="og:image" content="/assets/images/pebojot_thumbnail.png" />
+  <!-- twitter -->
+  <!-- <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@pebojote" />
+  <meta name="twitter:creator" content="@pebojote" />
+  <meta property="og:url" content="https://www.pebojot.com" />
+  <meta property="og:title" content="Edison Pebojot" />
+  <meta property="og:description"
+    content="I love outdoor activities, I am an engineer and a PhD student, sharing my knowledge and experiences to the world." />
+  <meta property="og:image" content="/assets/images/pebojot_thumbnail.png" /> -->
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@pebojote" />
+  <meta name="twitter:title" content="Edison Pebojot" />
+  <meta name="twitter:description"
+    content="I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I have a passion for outdoor adventures and various other activities. Capturing life’s moments through photography is something I enjoy" />
+  <meta name="twitter:image"
+    content="https://github-production-user-asset-6210df.s3.amazonaws.com/38276345/291885161-ea54c05c-57a6-4a2e-afb2-ae9901232193.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231220T120407Z&X-Amz-Expires=300&X-Amz-Signature=b6a7674ee4e946937fac6bf3762dd4c304b1a68ee59e3baf79c1d99f06422d0b&X-Amz-SignedHeaders=host&actor_id=38276345&key_id=0&repo_id=351975012" />
+
   
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
   <div class="container p-2">
     <nav id="navbar1" class="navbar navbar-expand-lg navbar-light p-2">
-      
+      <span class="navbar__mobile">
+    <div class="dropdown">
+        <a id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="home-hover block">
+                Explore
+            </span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item active" href="/"
+                    title="">
+                        <span class="home-hover block">
+                            Edison Pebojot
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/blog/"
+                    title="">
+                        <span class="home-hover block">
+                            Blog
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/project/"
+                    title="">
+                        <span class="home-hover block">
+                            Project
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/podcast/"
+                    title="">
+                        <span class="home-hover block">
+                            Podcast
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item" href="#"
+                    title="" disabled>
+                        <span class="home-hover block fixed">
+                            Research
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/pv/"
+                    title="">
+                        <span class="home-hover block">
+                            Photograph & Video
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/about/"
+                    title="">
+                        <span class="home-hover block">
+                            About
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+        </ul>
+    </div>
+</span>
+
+
+
 
 <span class="d-flex flex-grow-1">
+    <!-- Name -->
     <span class="navbar__desktop">
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
             
             <a class="nav-link active bg-transparent border-0" data-toggle="tabs"
                 href="/">
-                <h5>
-                    <span class="home-hover block">
-                        Edison Pebojot
-                    </span>
-                </h5>
+                <span class="home-hover block">
+                    Edison Pebojot
+                </span>
             </a>
             
         </span>
     </span>
-    <span class="navbar__mobile">
-        <a href="/" class="btn btn btn-light" style="margin: 2px;">
-            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-        </a>
-    </span>
 </span>
 
 
@@ -70,28 +183,14 @@
 
 
 
-<span class="navbar__mobile">
-    <div class="d-flex align-items-center gap-1">
-        <a href="/blog/" class="btn ">
-            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-        </a>
-        <a href="/event/" class="btn ">
-            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-        </a>
-        <a href="/project/" class="btn ">
-            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-        </a>
-        <a href="/about/" role="button" 
-            class="btn btn-secondary ">
-            <b>
-                About
-            </b>
-        </a>
-        <!-- <span id="menu" class="btn">
-            <img id="menu-src" src="/assets/images/menu.webp" >
-        </span> -->
-    </div>
-</span>
+
+
+
+
+
+<!-- Navigation -->
+<!-- Existing code for navbar__mobile -->
+
 
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
@@ -103,14 +202,14 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/blog/">
-            <h5>
                 <span class="home-hover block">
                     Blog
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -119,30 +218,14 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
-            href="/event/">
-            <h5>
-                <span class="home-hover block">
-                    Event
-                </span>
-            </h5>
-        </a>
         
-    </span>
-</span>
-
-
-<span class="navbar__desktop">
-    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-        
-        <a class="nav-link  border-0" data-toggle="tabs"
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/project/">
-            <h5>
                 <span class="home-hover block">
                     Project
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -151,14 +234,61 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
+            href="/podcast/">
+                <span class="home-hover block">
+                    Podcast
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link border-0" data-toggle="tabs" href="#">
+                <span class="home-hover block fixed">
+                    Research
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
+            href="/pv/">
+                <span class="home-hover block">
+                    Photograph & Video
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/about/">
-            <h5>
                 <span class="home-hover block">
                     About
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -166,14 +296,14 @@
 
     </nav>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container active">
-        <div class="container-fluid">
+    <div class="tab-content p-1">
+      <div class="tab-pane container active p-0">
+        <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-3 bg-light p-2">
             <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
                         sizealt="Edison Pebojot">
                 </a>
             </span>
@@ -185,34 +315,34 @@
             <span class="mobile__size">
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
-            <p class="lead" style="text-align: justify;word-break: break-all;">
-                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                Patrick’s Academy Inc., a Catholic high school. <sup><a
-                        href="https://everipedia.org/wiki/lang_en/edison-pebojot" target="_blank">[Encyclopedia]</a></sup>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
-                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
-                </a>
-                <a href="https://twitter.com/workpebojot" target="blank">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
                         alt="Twitter">
                 </a>
-                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                <a href="https://linkedin.com/in/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
                         alt="LinkedIn">
                 </a>
-                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
-                        alt="StackOverflow" /></a>
-                <a href="https://fb.com/personalpebojot" target="blank">
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
-                        alt="Facebook" /></a>
-                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
-                        alt="Codewars" /></a>
-                <a href="https://github.com/workpebojot" target="blank">
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
                         alt="Github" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
@@ -226,19 +356,35 @@
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
-                        University (BS)</a>
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
                 </p>
                 </p>
-                <p class="card-text">
-                    <b>Occupation:</b> Google Play Developer, Software Developer
-                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
             </div>
             <div style="display: none;">
                 <ul class="list-group">
                     
                     <li class="list-group-item">
-                        <a href="/2022/05/30/blog/">Major Hike at Mt. Pigingan 2022. 🌄🚩</a>
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
                     </li>
                     
                     <li class="list-group-item">
@@ -327,7 +473,7 @@
             Latest Blog
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Front-End, Back-End, Full Stack, Architecture, Personal
+            Front-End, Back-End, Full Stack, Architecture
         </h6>
     </div>
     <div class="row">
@@ -336,29 +482,29 @@
                 
                 
                 
-                <a href="2022/05/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2022.5.30.blog.cover.png" class="img-thumbnail" alt="Major Hike at Mt. Pigingan 2022. 🌄🚩">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Major Hike at Mt. Pigingan 2022. 🌄🚩</h4>
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I'd like to write a blog post about my professional experience also.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            30 May 2022
+                                            30 Dec 2023
                                         </small>
                                     </p>
                                 </div>
@@ -415,21 +561,30 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph & Video
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun, Trek
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 
                 
                 
@@ -441,55 +596,36 @@
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2020.8.28.event.cover.png" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <h4 class="card-title">Embracing the Horizon</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            28 Aug 2020
+                                            01 May 2022
                                         </small>
                                     </p>
                                 </div>
@@ -497,7 +633,62 @@
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -507,9 +698,59 @@
                 
                 
                 
+                <!-- BIKING -->
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
                 
                 
             </div>
@@ -527,6 +768,14 @@
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -616,14 +865,14 @@
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
-        <div class="container-fluid">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-3 bg-light p-2">
             <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
                         sizealt="Edison Pebojot">
                 </a>
             </span>
@@ -635,34 +884,34 @@
             <span class="mobile__size">
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
-            <p class="lead" style="text-align: justify;word-break: break-all;">
-                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                Patrick’s Academy Inc., a Catholic high school. <sup><a
-                        href="https://everipedia.org/wiki/lang_en/edison-pebojot" target="_blank">[Encyclopedia]</a></sup>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
-                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
-                </a>
-                <a href="https://twitter.com/workpebojot" target="blank">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
                         alt="Twitter">
                 </a>
-                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                <a href="https://linkedin.com/in/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
                         alt="LinkedIn">
                 </a>
-                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
-                        alt="StackOverflow" /></a>
-                <a href="https://fb.com/personalpebojot" target="blank">
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
-                        alt="Facebook" /></a>
-                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
-                        alt="Codewars" /></a>
-                <a href="https://github.com/workpebojot" target="blank">
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
                         alt="Github" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
@@ -676,19 +925,35 @@
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
-                        University (BS)</a>
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
                 </p>
                 </p>
-                <p class="card-text">
-                    <b>Occupation:</b> Google Play Developer, Software Developer
-                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
             </div>
             <div style="display: none;">
                 <ul class="list-group">
                     
                     <li class="list-group-item">
-                        <a href="/2022/05/30/blog/">Major Hike at Mt. Pigingan 2022. 🌄🚩</a>
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
                     </li>
                     
                     <li class="list-group-item">
@@ -777,7 +1042,7 @@
             Latest Blog
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Front-End, Back-End, Full Stack, Architecture, Personal
+            Front-End, Back-End, Full Stack, Architecture
         </h6>
     </div>
     <div class="row">
@@ -786,29 +1051,29 @@
                 
                 
                 
-                <a href="2022/05/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2022.5.30.blog.cover.png" class="img-thumbnail" alt="Major Hike at Mt. Pigingan 2022. 🌄🚩">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Major Hike at Mt. Pigingan 2022. 🌄🚩</h4>
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I'd like to write a blog post about my professional experience also.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            30 May 2022
+                                            30 Dec 2023
                                         </small>
                                     </p>
                                 </div>
@@ -865,21 +1130,30 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph & Video
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun, Trek
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 
                 
                 
@@ -891,55 +1165,36 @@
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2020.8.28.event.cover.png" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <h4 class="card-title">Embracing the Horizon</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            28 Aug 2020
+                                            01 May 2022
                                         </small>
                                     </p>
                                 </div>
@@ -947,7 +1202,62 @@
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -957,9 +1267,59 @@
                 
                 
                 
+                <!-- BIKING -->
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
                 
                 
             </div>
@@ -977,6 +1337,14 @@
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -1066,14 +1434,14 @@
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
-        <div class="container-fluid">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-3 bg-light p-2">
             <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
                         sizealt="Edison Pebojot">
                 </a>
             </span>
@@ -1085,34 +1453,34 @@
             <span class="mobile__size">
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
-            <p class="lead" style="text-align: justify;word-break: break-all;">
-                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                Patrick’s Academy Inc., a Catholic high school. <sup><a
-                        href="https://everipedia.org/wiki/lang_en/edison-pebojot" target="_blank">[Encyclopedia]</a></sup>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
-                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
-                </a>
-                <a href="https://twitter.com/workpebojot" target="blank">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
                         alt="Twitter">
                 </a>
-                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                <a href="https://linkedin.com/in/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
                         alt="LinkedIn">
                 </a>
-                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
-                        alt="StackOverflow" /></a>
-                <a href="https://fb.com/personalpebojot" target="blank">
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
-                        alt="Facebook" /></a>
-                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
-                        alt="Codewars" /></a>
-                <a href="https://github.com/workpebojot" target="blank">
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
                         alt="Github" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
@@ -1126,19 +1494,35 @@
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
-                        University (BS)</a>
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
                 </p>
                 </p>
-                <p class="card-text">
-                    <b>Occupation:</b> Google Play Developer, Software Developer
-                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
             </div>
             <div style="display: none;">
                 <ul class="list-group">
                     
                     <li class="list-group-item">
-                        <a href="/2022/05/30/blog/">Major Hike at Mt. Pigingan 2022. 🌄🚩</a>
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
                     </li>
                     
                     <li class="list-group-item">
@@ -1227,7 +1611,7 @@
             Latest Blog
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Front-End, Back-End, Full Stack, Architecture, Personal
+            Front-End, Back-End, Full Stack, Architecture
         </h6>
     </div>
     <div class="row">
@@ -1236,29 +1620,29 @@
                 
                 
                 
-                <a href="2022/05/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2022.5.30.blog.cover.png" class="img-thumbnail" alt="Major Hike at Mt. Pigingan 2022. 🌄🚩">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Major Hike at Mt. Pigingan 2022. 🌄🚩</h4>
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I'd like to write a blog post about my professional experience also.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            30 May 2022
+                                            30 Dec 2023
                                         </small>
                                     </p>
                                 </div>
@@ -1315,21 +1699,30 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph & Video
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun, Trek
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 
                 
                 
@@ -1341,55 +1734,36 @@
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2020.8.28.event.cover.png" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <h4 class="card-title">Embracing the Horizon</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            28 Aug 2020
+                                            01 May 2022
                                         </small>
                                     </p>
                                 </div>
@@ -1397,7 +1771,62 @@
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -1407,9 +1836,59 @@
                 
                 
                 
+                <!-- BIKING -->
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
                 
                 
             </div>
@@ -1427,6 +1906,14 @@
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -1516,14 +2003,14 @@
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
-        <div class="container-fluid">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-3 bg-light p-2">
             <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
                         sizealt="Edison Pebojot">
                 </a>
             </span>
@@ -1535,34 +2022,34 @@
             <span class="mobile__size">
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
-            <p class="lead" style="text-align: justify;word-break: break-all;">
-                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                Patrick’s Academy Inc., a Catholic high school. <sup><a
-                        href="https://everipedia.org/wiki/lang_en/edison-pebojot" target="_blank">[Encyclopedia]</a></sup>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
-                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
-                </a>
-                <a href="https://twitter.com/workpebojot" target="blank">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
                         alt="Twitter">
                 </a>
-                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                <a href="https://linkedin.com/in/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
                         alt="LinkedIn">
                 </a>
-                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
-                        alt="StackOverflow" /></a>
-                <a href="https://fb.com/personalpebojot" target="blank">
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
-                        alt="Facebook" /></a>
-                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
-                        alt="Codewars" /></a>
-                <a href="https://github.com/workpebojot" target="blank">
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
                         alt="Github" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
@@ -1576,19 +2063,35 @@
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
-                        University (BS)</a>
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
                 </p>
                 </p>
-                <p class="card-text">
-                    <b>Occupation:</b> Google Play Developer, Software Developer
-                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
             </div>
             <div style="display: none;">
                 <ul class="list-group">
                     
                     <li class="list-group-item">
-                        <a href="/2022/05/30/blog/">Major Hike at Mt. Pigingan 2022. 🌄🚩</a>
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
                     </li>
                     
                     <li class="list-group-item">
@@ -1677,7 +2180,7 @@
             Latest Blog
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Front-End, Back-End, Full Stack, Architecture, Personal
+            Front-End, Back-End, Full Stack, Architecture
         </h6>
     </div>
     <div class="row">
@@ -1686,29 +2189,29 @@
                 
                 
                 
-                <a href="2022/05/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2022.5.30.blog.cover.png" class="img-thumbnail" alt="Major Hike at Mt. Pigingan 2022. 🌄🚩">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Major Hike at Mt. Pigingan 2022. 🌄🚩</h4>
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I'd like to write a blog post about my professional experience also.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            30 May 2022
+                                            30 Dec 2023
                                         </small>
                                     </p>
                                 </div>
@@ -1765,21 +2268,30 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph & Video
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun, Trek
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 
                 
                 
@@ -1791,55 +2303,36 @@
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2020.8.28.event.cover.png" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <h4 class="card-title">Embracing the Horizon</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            28 Aug 2020
+                                            01 May 2022
                                         </small>
                                     </p>
                                 </div>
@@ -1847,7 +2340,62 @@
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -1857,9 +2405,59 @@
                 
                 
                 
+                <!-- BIKING -->
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
                 
                 
             </div>
@@ -1877,6 +2475,14 @@
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -1966,14 +2572,14 @@
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
-        <div class="container-fluid">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
     <div class="row">
         <div class="col-sm-3 bg-light p-2">
             <span class="profile-image-wrapper">
                 <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
-                    <img src="./assets/images/2x2.webp" class="float-left img-thumbnail profile-image-fade"
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
                         sizealt="Edison Pebojot">
                 </a>
             </span>
@@ -1985,34 +2591,34 @@
             <span class="mobile__size">
                 <h5 style="text-align: center;">Edison Pebojot</h5>
             </span>
-            <p class="lead" style="text-align: justify;word-break: break-all;">
-                Edison Nacional Pebojot (/ˈpəʌbo|jo:tː/) is a software developer. Pebojot was
-                raised in the Philippines and attended AMA Computer University. Pebojot has also attended St.
-                Patrick’s Academy Inc., a Catholic high school. <sup><a
-                        href="https://everipedia.org/wiki/lang_en/edison-pebojot" target="_blank">[Encyclopedia]</a></sup>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
             </p>
             <div class="gap-1">
-                <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
-                </a>
-                <a href="https://twitter.com/workpebojot" target="blank">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
                         alt="Twitter">
                 </a>
-                <a href="https://linkedin.com/in/workpebojot" target="blank">
+                <a href="https://linkedin.com/in/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
                         alt="LinkedIn">
                 </a>
-                <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
-                        alt="StackOverflow" /></a>
-                <a href="https://fb.com/personalpebojot" target="blank">
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
-                        alt="Facebook" /></a>
-                <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
-                        alt="Codewars" /></a>
-                <a href="https://github.com/workpebojot" target="blank">
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
                     <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
                         alt="Github" /></a>
                 <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
@@ -2026,19 +2632,35 @@
                     <b>Born:</b> Dingalan, Aurora, Philippines
                 </p>
                 <p class="card-text">
-                    <b>Education:</b> <a href="https://en.wikipedia.org/wiki/AMA_Computer_University">AMA Computer
-                        University (BS)</a>
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
                 </p>
                 </p>
-                <p class="card-text">
-                    <b>Occupation:</b> Google Play Developer, Software Developer
-                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
             </div>
             <div style="display: none;">
                 <ul class="list-group">
                     
                     <li class="list-group-item">
-                        <a href="/2022/05/30/blog/">Major Hike at Mt. Pigingan 2022. 🌄🚩</a>
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
                     </li>
                     
                     <li class="list-group-item">
@@ -2127,7 +2749,7 @@
             Latest Blog
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Front-End, Back-End, Full Stack, Architecture, Personal
+            Front-End, Back-End, Full Stack, Architecture
         </h6>
     </div>
     <div class="row">
@@ -2136,29 +2758,29 @@
                 
                 
                 
-                <a href="2022/05/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2022.5.30.blog.cover.png" class="img-thumbnail" alt="Major Hike at Mt. Pigingan 2022. 🌄🚩">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Major Hike at Mt. Pigingan 2022. 🌄🚩</h4>
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking in different mountains in the Philippines. Later, I'd like to write a blog post about my professional experience also.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            So, I'm going to tell you about my hike up Mt. Pigingan. So this year, I've decided to travel twice a month, mostly hiking.
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            30 May 2022
+                                            30 Dec 2023
                                         </small>
                                     </p>
                                 </div>
@@ -2215,21 +2837,30 @@
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
             </div>
         </div>
     </div>
     <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
     <div class="mt-3 mb-3">
         <h2 class="display-6" style="text-align: center;">
-            Latest Event
+            Latest Photograph & Video
         </h2>
         <h6 class="text-uppercase text-center fw-light">
-            Hackathon, Planting, Mathematics, Programming
+            Adventure, Outdoor, Activity, Fun, Trek
         </h6>
     </div>
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 
                 
                 
@@ -2241,55 +2872,36 @@
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <a href="2020/08/28/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
-                                <img src="/assets/images/2020.8.28.event.cover.png" class="img-thumbnail" alt="Elliptic Curve Cryptography and Quantum Computing: The Mathematics">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="card-body">
-                                    <h4 class="card-title">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</h4>
+                                    <h4 class="card-title">Embracing the Horizon</h4>
                                     <span class="desktop__size ">
                                         <p class="card-text lead" style="text-align: justify;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session (and succeeding sessions) we will give an introduction of what Quantum Computing is and the mathematics required to understand it
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
                                         <p class="card-text lead" style="text-align: justify;word-break: break-all;">
-                                            Having presented the motivation to study Quantum Computing to crack Elliptic Curve Cryptography, in this second session
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
                                         </p>
                                     </span>
                                     <p class="card-text">
                                         <small class="text-muted">
-                                            28 Aug 2020
+                                            01 May 2022
                                         </small>
                                     </p>
                                 </div>
@@ -2297,7 +2909,62 @@
                         </div>
                     </div>
                 </a>
-                <a href="/event/" class="list-group-item list-group-item-action border-0 p-0"
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>
@@ -2307,9 +2974,59 @@
                 
                 
                 
+                <!-- BIKING -->
                 
                 
                 
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
                 
                 
             </div>
@@ -2327,6 +3044,14 @@
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
                 
                 
                 
@@ -2416,26 +3141,1178 @@
       </div>
     </div>
     
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
+    <div class="row">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
+                <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
+                </a>
+            </span>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;" class="block accent fixed">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
+            </p>
+            <div class="gap-1">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
+                <p class="card-text">
+                    <b>Born:</b> Dingalan, Aurora, Philippines
+                </p>
+                <p class="card-text">
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
+                </p>
+                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
+            </div>
+            <div style="display: none;">
+                <ul class="list-group">
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/09/11/blog/">Using Distributed algorithms to System architecture</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/09/01/blog/">Is it possible to use an algorithm in a system (or humans)?</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/30/blog/">Design for the benefit of the community</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/28/blog/">Modern approach and practice for CI and CD</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/25/blog/">Software Defects Management for Mistake</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/24/blog/">Continual Improvement for Kanban Team</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/22/blog/">The Software Industry's Project Management. Basically</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theater: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            30 Dec 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Photograph & Video
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Adventure, Outdoor, Activity, Fun, Trek
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                <!-- HIKING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Embracing the Horizon</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 May 2022
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                <!-- BIKING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.png" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+    
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <div class="container-fluid p-0">
+    <div class="row">
+        <div class="col-sm-3 bg-light p-2">
+            <span class="profile-image-wrapper">
+                <a href="/about/" class="btn bg-transparent" style="padding: 0;" role="button">
+                    <img src="./assets/images/2.webp" class="float-left img-thumbnail profile-image-fade"
+                        sizealt="Edison Pebojot">
+                </a>
+            </span>
+        </div>
+        <div class="col-sm-5 bg-light p-2">
+            <span class="desktop__size">
+                <h5 style="text-align: left;" class="block accent fixed">Edison Pebojot</h5>
+            </span>
+            <span class="mobile__size">
+                <h5 style="text-align: center;">Edison Pebojot</h5>
+            </span>
+            <p class="lead" style="text-align: justify">
+                Hello, my name is Edison. I’m an engineer and a doctoral candidate, on the verge of earning my PhD. I
+                have a passion for outdoor adventures and various other activities. Capturing life’s moments through
+                photography is something I enjoy, and I take pleasure in sharing my experiences from the industry, life,
+                and the knowledge I’ve gained.
+            </p>
+            <div class="gap-1">
+                <!-- <a href="https://www.quora.com/profile/Edison-Pebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/quora.logo.webp" alt="Quora">
+                </a> -->
+                <a href="https://twitter.com/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/twitter.logo.webp"
+                        alt="Twitter">
+                </a>
+                <a href="https://linkedin.com/in/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/linkedin.logo.webp"
+                        alt="LinkedIn">
+                </a>
+                <!-- <a href="https://stackoverflow.com/users/10233884/edison-pebojot?tab=profile" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/stackoverflow.logo.webp"
+                        alt="StackOverflow" /></a> -->
+                <!-- <a href="https://fb.com/pebojot.e" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/facebook.logo.webp"
+                        alt="Facebook" /></a> -->
+                <!-- <a href="https://www.codewars.com/users/workpebojot" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/codewars.logo.webp"
+                        alt="Codewars" /></a> -->
+                <a href="https://github.com/pebojote" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/github.logo.webp"
+                        alt="Github" /></a>
+                <a href="https://play.google.com/store/apps/dev?id=4722505601855473962" target="blank">
+                    <img height="32" width="32" class="float-left" src="./assets/images/google.play.logo.webp"
+                        alt="Google Play" /></a>
+            </div>
+        </div>
+        <div class="col-sm-4 bg-light p-2">
+            <div class="pt-0 pl-3">
+                <p class="card-text">
+                    <b>Born:</b> Dingalan, Aurora, Philippines
+                </p>
+                <p class="card-text">
+                    <b>Education:</b> <a href="">AMA Computer University (MIT - Master in
+                        Information Technology)</a>
+                </p>
+                </p>
+                <!-- <p class="card-text">
+                    <b>Occupation:</b> Infrastructure Architect
+                </p> -->
+            </div>
+            <div style="display: none;">
+                <ul class="list-group">
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/30/blog/">The Future of Web Design Powered by AI</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/12/01/biking/">Bikepacking/Trek</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/08/01/climbing/">Rock/Stone Climbing</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2023/05/07/blog/">Data Architecture for System Map Control</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2022/05/01/hiking/">Backpacking/Hiking/Camping</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/09/11/blog/">Using Distributed algorithms to System architecture</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/09/01/blog/">Is it possible to use an algorithm in a system (or humans)?</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/30/blog/">Design for the benefit of the community</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/28/blog/">Modern approach and practice for CI and CD</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/25/blog/">Software Defects Management for Mistake</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/24/blog/">Continual Improvement for Kanban Team</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/08/22/blog/">The Software Industry's Project Management. Basically</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/31/blog/">Describe Your Task as a Software Developer</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/29/blog/">The Basics of Software Requirement Gathering</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/20/project/">Muon: Software Package Directory</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2021/03/03/blog/">Software Ethics to me (or to you)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/28/blog/">An Android Platform for Filipino Employment (Beta Program)</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/12/25/project/">www.pebojot.com</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/10/28/project/">The Vacuum Project</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2020/08/28/event/">Elliptic Curve Cryptography and Quantum Computing: The Mathematics</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/10/12/project/">Braindotnet</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/09/10/event/">Hackathon Event: AMA Computer University</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2018/05/31/event/">Tree Planting: About Environmental Conservation</a>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <a href="/2016/03/12/event/">Theater: Acting Session for El Filibusterismo in Grade 10</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Blog
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Front-End, Back-End, Full Stack, Architecture
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                
+                
+                
+                <a href="2023/12/30/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2023-12-30-blog-cover.png" class="img-thumbnail" alt="The Future of Web Design Powered by AI">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">The Future of Web Design Powered by AI</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            Embark on the journey of crafting a user-centric website with a holistic approach to web design.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            30 Dec 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/blog/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Photograph & Video
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Adventure, Outdoor, Activity, Fun, Trek
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                <!-- HIKING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Embracing the Horizon</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 May 2022
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2022/05/01/hiking/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                <!-- STONE CLIMBING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Scaling the Heights of Mountain</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                <!-- BIKING -->
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">8.9 km Adventures: Navigating Life's Hurdles</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            01 Aug 2023
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.pebojot.com/2023/8/1/climbing/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Project
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Linux, Android, Progressive Web App, Package
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <a href="2021/03/20/project/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                <img src="/assets/images/2021.03.20.project.cover.png" class="img-thumbnail" alt="Muon: Software Package Directory">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">Muon: Software Package Directory</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different platform and programming languages. A software package is a software that has been built from source with one of the available package management systems. The package gives the compiled code.
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            The muon is a software package directory tool. It helps you to find software packages from different
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            20 Mar 2021
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="/project/" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+      </div>
+    </div>
+    
+    <footer class="footer mt-auto">
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex bg-light p-0">
+                <div class="list-group m-1">
+                    <span class="list-group-item list-group-item-action border-0 p-1"
+                        style="background-color: transparent text-left">
+                        &copy; 2024 Edison Pebojot
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
   </div>
 </body>
 
 <script>
-window.onscroll = function() {myFunction()};
+  window.onscroll = function () { myFunction() };
 
-var navbar1 = document.getElementById("navbar1");
-var sticky = navbar1.offsetTop;
+  var navbar1 = document.getElementById("navbar1");
+  var sticky = navbar1.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar1.classList.add("sticky-top");
-    navbar1.classList.add("bg-light");
-    navbar1.classList.add("rounded-bottom");
-  } else {
-    navbar1.classList.remove("sticky-top");
-    navbar1.classList.remove("bg-light");
-    navbar1.classList.remove("rounded-bottom");
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar1.classList.add("sticky-top");
+      navbar1.classList.add("bg-light");
+      navbar1.classList.add("rounded-bottom");
+    } else {
+      navbar1.classList.remove("sticky-top");
+      navbar1.classList.remove("bg-light");
+      navbar1.classList.remove("rounded-bottom");
+    }
   }
-}
 </script>
 
 </html>

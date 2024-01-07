@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon" />
   <title>The Basics of Software Requirement Gathering</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
   <link type="application/atom+xml" rel="alternate" href="http://localhost:3000/feed.xml" />
   <!-- facebook -->
   <meta property="og:url" content="https://www.pebojot.com/2021/03/29/blog/" />
@@ -32,31 +35,134 @@
 
 <body>
   <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=392255101474586&autoLogAppEvents=1" nonce="79M6LFg0"></script>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=392255101474586&autoLogAppEvents=1"
+    nonce="79M6LFg0"></script>
   <div class="container p-2">
     <nav id="navbar2" class="navbar navbar-expand-lg navbar-light p-2">
-      
+      <span class="navbar__mobile">
+    <div class="dropdown">
+        <a id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="home-hover block">
+                Explore
+            </span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/"
+                    title="">
+                        <span class="home-hover block">
+                            Edison Pebojot
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/blog/"
+                    title="">
+                        <span class="home-hover block">
+                            Blog
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/project/"
+                    title="">
+                        <span class="home-hover block">
+                            Project
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/podcast/"
+                    title="">
+                        <span class="home-hover block">
+                            Podcast
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item" href="#"
+                    title="" disabled>
+                        <span class="home-hover block fixed">
+                            Research
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/pv/"
+                    title="">
+                        <span class="home-hover block">
+                            Photograph & Video
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+            
+            <li>
+                
+                    <a class="dropdown-item " href="/about/"
+                    title="">
+                        <span class="home-hover block">
+                            About
+                        </span>
+                    </a>
+                
+            </li>
+            
+            
+        </ul>
+    </div>
+</span>
+
+
+
 
 <span class="d-flex flex-grow-1">
+    <!-- Name -->
     <span class="navbar__desktop">
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
             
             <a class="nav-link  border-0" data-toggle="tabs"
                 href="/">
-                <h5>
-                    <span class="home-hover block">
-                        Edison Pebojot
-                    </span>
-                </h5>
+                <span class="home-hover block">
+                    Edison Pebojot
+                </span>
             </a>
             
         </span>
     </span>
-    <span class="navbar__mobile">
-        <a href="/" class="btn " style="margin: 2px;">
-            <img src="/assets/images/2x2.webp" width="32" height="32" class="img-fluid rounded-circle" alt="Edison Pebojot">
-        </a>
-    </span>
 </span>
 
 
@@ -68,28 +174,14 @@
 
 
 
-<span class="navbar__mobile">
-    <div class="d-flex align-items-center gap-1">
-        <a href="/blog/" class="btn ">
-            <img src="/assets/images/blog.webp" class="img-fluid" alt="Blog">
-        </a>
-        <a href="/event/" class="btn ">
-            <img src="/assets/images/event.webp" class="img-fluid" alt="Event">
-        </a>
-        <a href="/project/" class="btn ">
-            <img src="/assets/images/project.webp" class="img-fluid" alt="Project">
-        </a>
-        <a href="/about/" role="button" 
-            class="btn btn-secondary ">
-            <b>
-                About
-            </b>
-        </a>
-        <!-- <span id="menu" class="btn">
-            <img id="menu-src" src="/assets/images/menu.webp" >
-        </span> -->
-    </div>
-</span>
+
+
+
+
+
+<!-- Navigation -->
+<!-- Existing code for navbar__mobile -->
+
 
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
@@ -101,14 +193,14 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/blog/">
-            <h5>
                 <span class="home-hover block">
                     Blog
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -117,30 +209,14 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
-            href="/event/">
-            <h5>
-                <span class="home-hover block">
-                    Event
-                </span>
-            </h5>
-        </a>
         
-    </span>
-</span>
-
-
-<span class="navbar__desktop">
-    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
-        
-        <a class="nav-link  border-0" data-toggle="tabs"
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/project/">
-            <h5>
                 <span class="home-hover block">
                     Project
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -149,14 +225,61 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         
-        <a class="nav-link  border-0" data-toggle="tabs"
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
+            href="/podcast/">
+                <span class="home-hover block">
+                    Podcast
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link border-0" data-toggle="tabs" href="#">
+                <span class="home-hover block fixed">
+                    Research
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
+            href="/pv/">
+                <span class="home-hover block">
+                    Photograph & Video
+                </span>
+            </a>
+        
+        
+    </span>
+</span>
+
+
+<span class="navbar__desktop">
+    <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
+        
+        
+            <a class="nav-link  border-0" data-toggle="tabs"
             href="/about/">
-            <h5>
                 <span class="home-hover block">
                     About
                 </span>
-            </h5>
-        </a>
+            </a>
+        
         
     </span>
 </span>
@@ -164,8 +287,8 @@
 
     </nav>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -180,7 +303,7 @@
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -195,12 +318,12 @@
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -209,7 +332,7 @@
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -224,11 +347,11 @@
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -295,7 +418,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -304,7 +427,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -321,8 +444,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -337,7 +460,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -352,12 +475,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -366,7 +489,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -381,11 +504,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -452,7 +575,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -461,7 +584,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -478,8 +601,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -494,7 +617,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -509,12 +632,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -523,7 +646,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -538,11 +661,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -609,7 +732,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -618,7 +741,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -635,8 +758,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -651,7 +774,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -666,12 +789,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -680,7 +803,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -695,11 +818,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -766,7 +889,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -775,7 +898,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -792,8 +915,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -808,7 +931,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -823,12 +946,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -837,7 +960,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -852,11 +975,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -923,7 +1046,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -932,7 +1055,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -949,8 +1072,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -965,7 +1088,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -980,12 +1103,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -994,7 +1117,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1009,11 +1132,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1080,7 +1203,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1089,7 +1212,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1106,8 +1229,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1122,7 +1245,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1137,12 +1260,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1151,7 +1274,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1166,11 +1289,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1237,7 +1360,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1246,7 +1369,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1263,8 +1386,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1279,7 +1402,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1294,12 +1417,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1308,7 +1431,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1323,11 +1446,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1394,7 +1517,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1403,7 +1526,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1420,8 +1543,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1436,7 +1559,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1451,12 +1574,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1465,7 +1588,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1480,11 +1603,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1551,7 +1674,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1560,7 +1683,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1577,8 +1700,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container active">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1593,7 +1716,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1608,12 +1731,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1622,7 +1745,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1637,11 +1760,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1708,7 +1831,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1717,7 +1840,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1734,8 +1857,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1750,7 +1873,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1765,12 +1888,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1779,7 +1902,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1794,11 +1917,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -1865,7 +1988,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -1874,7 +1997,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -1891,8 +2014,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -1907,7 +2030,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -1922,12 +2045,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -1936,7 +2059,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -1951,11 +2074,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2022,7 +2145,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2031,7 +2154,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2048,8 +2171,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2064,7 +2187,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2079,12 +2202,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2093,7 +2216,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2108,11 +2231,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2179,7 +2302,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2188,7 +2311,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2205,8 +2328,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container active p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2221,7 +2344,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2236,12 +2359,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2250,7 +2373,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2265,11 +2388,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2336,7 +2459,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2345,7 +2468,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2362,8 +2485,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2378,7 +2501,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2393,12 +2516,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2407,7 +2530,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2422,11 +2545,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2493,7 +2616,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2502,7 +2625,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2519,8 +2642,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2535,7 +2658,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2550,12 +2673,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2564,7 +2687,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2579,11 +2702,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2650,7 +2773,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2659,7 +2782,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2676,8 +2799,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2692,7 +2815,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2707,12 +2830,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2721,7 +2844,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2736,11 +2859,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2807,7 +2930,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2816,7 +2939,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2833,8 +2956,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -2849,7 +2972,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -2864,12 +2987,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -2878,7 +3001,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -2893,11 +3016,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -2964,7 +3087,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -2973,7 +3096,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -2990,8 +3113,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -3006,7 +3129,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -3021,12 +3144,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -3035,7 +3158,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -3050,11 +3173,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -3121,7 +3244,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -3130,7 +3253,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -3147,8 +3270,8 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
-    <div class="tab-content p-2">
-      <div class="tab-pane container ">
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
         <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
@@ -3163,7 +3286,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
       <div class="align-self-center">
         <small class="text-muted">
-          <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
         </small>
       </div>
       &nbsp;
@@ -3178,12 +3301,12 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center">
       <div class="align-self-center">
-        <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a>
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
         <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
       &nbsp;
       <div class="align-self-center">
-        <a class="github-button" href="https://github.com/workpebojot" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @workpebojot on GitHub">Follow</a>
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
       </div>
     </div>
   </div>
@@ -3192,7 +3315,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <div class="d-flex align-items-center">
         <div class="align-self-center">
             <small class="text-muted">
-                <img src="/assets/images/2x2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
             </small>
         </div>
         &nbsp;
@@ -3207,11 +3330,11 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     <p></p>
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/workpebojot?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @workpebojot</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/workpebojot" aria-label="Follow @workpebojot on GitHub">Follow</a>
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
         </div>
     </div>
 </div>
@@ -3278,7 +3401,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
     </div>
     &nbsp;
     <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a>
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
       <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div>
@@ -3287,7 +3410,7 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 <div class="mobile__size">
     <div class="d-flex align-items-center justify-content-start">
         <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="workpebojot">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
         &nbsp;
         <div class="align-self-center">
@@ -3304,6 +3427,648 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
       </div>
     </div>
     
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
+
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        29 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/29/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<p>
+  Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
+</p>
+<p>
+  This is critical, particularly for senior developers. Many people expect senior developers to attend meetings with <a href="https://en.wikipedia.org/wiki/Project_stakeholder" target="_blank">stakeholders</a> to figure out what they need and what product they need to meet that need. Stakeholder needs were posted on a whiteboard, like sticky notes, and tasks were set up for a developer to complete, which was done by just one person. However, in the twenty-first century, it is no longer done by a single person.
+</p>
+<p>
+  This is why teams in the software industry hold <a href="https://en.wikipedia.org/wiki/Workshop" target="_blank">workshops</a>. Trainings and prototypes are displayed to the stakeholders in the workshop. These are the people who might be interested in your product, or stakeholders. If your prototype is about XBOX gaming software, your stakeholders may be XBOX gamers; if the prototype is about business management, your stakeholders may be a business team. Your supplier, and, more importantly, your end-user, can do it as well. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  You'll find a lot of problems in the double diamond model, as well as the most important ones. Then you'll come across a plethora of options before deciding on the most appropriate one. The stakeholder may understand the nature of their problem, but not the technology that will assist them in resolving it. Here, the double diamond workshops are beneficial because they not only provide us with the problem and solution, but they also know, as do we, which technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">User Experience</a> is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qualitative_research" target="_blank">qualitative research</a>, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also <a href="https://en.wikipedia.org/wiki/Quantitative_research" target="_blank">quantitative research</a>. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your <a href="https://en.wikipedia.org/wiki/Analytics" target="_blank">analytics</a> systems if you have a real user on your product. You can also use <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">continuous delivery</a> with this quantitative data to release a new feature early.
+</p>
+</div>
+
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+<p>
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
+</p>
+<p>
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+
+      </div>
+    </div>
+    
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
+
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        29 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/29/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<p>
+  Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
+</p>
+<p>
+  This is critical, particularly for senior developers. Many people expect senior developers to attend meetings with <a href="https://en.wikipedia.org/wiki/Project_stakeholder" target="_blank">stakeholders</a> to figure out what they need and what product they need to meet that need. Stakeholder needs were posted on a whiteboard, like sticky notes, and tasks were set up for a developer to complete, which was done by just one person. However, in the twenty-first century, it is no longer done by a single person.
+</p>
+<p>
+  This is why teams in the software industry hold <a href="https://en.wikipedia.org/wiki/Workshop" target="_blank">workshops</a>. Trainings and prototypes are displayed to the stakeholders in the workshop. These are the people who might be interested in your product, or stakeholders. If your prototype is about XBOX gaming software, your stakeholders may be XBOX gamers; if the prototype is about business management, your stakeholders may be a business team. Your supplier, and, more importantly, your end-user, can do it as well. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  You'll find a lot of problems in the double diamond model, as well as the most important ones. Then you'll come across a plethora of options before deciding on the most appropriate one. The stakeholder may understand the nature of their problem, but not the technology that will assist them in resolving it. Here, the double diamond workshops are beneficial because they not only provide us with the problem and solution, but they also know, as do we, which technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">User Experience</a> is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qualitative_research" target="_blank">qualitative research</a>, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also <a href="https://en.wikipedia.org/wiki/Quantitative_research" target="_blank">quantitative research</a>. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your <a href="https://en.wikipedia.org/wiki/Analytics" target="_blank">analytics</a> systems if you have a real user on your product. You can also use <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">continuous delivery</a> with this quantitative data to release a new feature early.
+</p>
+</div>
+
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+<p>
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
+</p>
+<p>
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+
+      </div>
+    </div>
+    
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
+
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        29 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/29/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<p>
+  Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
+</p>
+<p>
+  This is critical, particularly for senior developers. Many people expect senior developers to attend meetings with <a href="https://en.wikipedia.org/wiki/Project_stakeholder" target="_blank">stakeholders</a> to figure out what they need and what product they need to meet that need. Stakeholder needs were posted on a whiteboard, like sticky notes, and tasks were set up for a developer to complete, which was done by just one person. However, in the twenty-first century, it is no longer done by a single person.
+</p>
+<p>
+  This is why teams in the software industry hold <a href="https://en.wikipedia.org/wiki/Workshop" target="_blank">workshops</a>. Trainings and prototypes are displayed to the stakeholders in the workshop. These are the people who might be interested in your product, or stakeholders. If your prototype is about XBOX gaming software, your stakeholders may be XBOX gamers; if the prototype is about business management, your stakeholders may be a business team. Your supplier, and, more importantly, your end-user, can do it as well. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  You'll find a lot of problems in the double diamond model, as well as the most important ones. Then you'll come across a plethora of options before deciding on the most appropriate one. The stakeholder may understand the nature of their problem, but not the technology that will assist them in resolving it. Here, the double diamond workshops are beneficial because they not only provide us with the problem and solution, but they also know, as do we, which technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">User Experience</a> is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qualitative_research" target="_blank">qualitative research</a>, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also <a href="https://en.wikipedia.org/wiki/Quantitative_research" target="_blank">quantitative research</a>. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your <a href="https://en.wikipedia.org/wiki/Analytics" target="_blank">analytics</a> systems if you have a real user on your product. You can also use <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">continuous delivery</a> with this quantitative data to release a new feature early.
+</p>
+</div>
+
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+<p>
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
+</p>
+<p>
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+
+      </div>
+    </div>
+    
+    <div class="tab-content p-1">
+      <div class="tab-pane container  p-0">
+        <p><img src="/assets/images/2021-3-29-blog-cover.png" class="rounded img-fluid" /></p>
+
+<div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<div class="mobile__size " style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+    <h2>The Basics of Software Requirement Gathering</h2>
+</div>
+<hr />
+
+<div class="desktop__size ">
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <small class="text-muted">
+          <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+        </small>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        By Edison Pebojot
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        29 March 2021
+      </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center">
+      <div class="align-self-center">
+        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
+        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+      &nbsp;
+      <div class="align-self-center">
+        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center">
+        <div class="align-self-center">
+            <small class="text-muted">
+                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
+            </small>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            By Edison Pebojot
+        </div>
+        &nbsp;
+        <div class="align-self-center flex-grow-1">
+            03/29/2021
+        </div>
+    </div>
+    <p></p>
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
+        </div>
+    </div>
+</div>
+<p><br /></p>
+<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
+<p>
+  Each team's developer's role in gathering software requirements will be different. Someone is in charge of it in large groups. The <i>business analyst</i>, <i>product owner</i>, or <i>project manager</i> is this person. It is essential that you put it on. However, you must collaborate with them in order to fully comprehend what they are doing. It's just a lot easier to work with if you understand what they're doing, as well as what your entire team is doing.
+</p>
+<p>
+  This is critical, particularly for senior developers. Many people expect senior developers to attend meetings with <a href="https://en.wikipedia.org/wiki/Project_stakeholder" target="_blank">stakeholders</a> to figure out what they need and what product they need to meet that need. Stakeholder needs were posted on a whiteboard, like sticky notes, and tasks were set up for a developer to complete, which was done by just one person. However, in the twenty-first century, it is no longer done by a single person.
+</p>
+<p>
+  This is why teams in the software industry hold <a href="https://en.wikipedia.org/wiki/Workshop" target="_blank">workshops</a>. Trainings and prototypes are displayed to the stakeholders in the workshop. These are the people who might be interested in your product, or stakeholders. If your prototype is about XBOX gaming software, your stakeholders may be XBOX gamers; if the prototype is about business management, your stakeholders may be a business team. Your supplier, and, more importantly, your end-user, can do it as well. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The order in which your workshops are held is determined by the stakeholders involved. Instead of doing that solution and making a prototype right away, this is typically how you look at your problem and how you can solve it. You could argue that it is anti-<a href="https://en.wikipedia.org/wiki/Agile_software_development" target="_blank">agile</a>, but you know that in order to avoid making a mistake, you must first see and understand the problem. Your stakeholder can tell you about a problem in a workshop, which will help you figure out what your challenges are and what steps you and your team should take. This step is part of a larger process known as the <a href="https://en.wikipedia.org/wiki/Design#Process" target="_blank">design process</a> in software development. However, we will use a double diamond process (or model) in this article.
+</p>
+<p>
+  <img src="https://user-images.githubusercontent.com/38276345/112810401-8f215380-90ad-11eb-8f10-1f746f5070fb.png" class="img-fluid" />
+  <figcaption>Figure 1. Double Diamond Model (<a href="https://en.wikipedia.org/wiki/File:Double_diamond.png" target="_blank">source</a>)</figcaption>
+</p>
+<p>
+  You'll find a lot of problems in the double diamond model, as well as the most important ones. Then you'll come across a plethora of options before deciding on the most appropriate one. The stakeholder may understand the nature of their problem, but not the technology that will assist them in resolving it. Here, the double diamond workshops are beneficial because they not only provide us with the problem and solution, but they also know, as do we, which technology should be used.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  The <a href="https://en.wikipedia.org/wiki/User_experience" target="_blank">User Experience</a> is the other. The User Experience team conducts a requirement gathering process with users. A sort of laboratory where User Experience researchers collect data on the subject. And most of these researchers are psychologists. In the requirement gathering process, the User Experience practitioner is your best ally. A User Experience team is found in many successful businesses. These successful companies combine the Development and User Experience teams into a single process, allowing them to work together to gather user data. The UX team assists the development team, or the development team assists the UX team, removing the communication barrier that existed in early software development.
+</p>
+</div>
+
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qualitative_research" target="_blank">qualitative research</a>, which means they take abstract (theoretical) data, which usually includes user emotions. But, in addition to qualitative research, there is also <a href="https://en.wikipedia.org/wiki/Quantitative_research" target="_blank">quantitative research</a>. Quantitative research is only useful if the user is already familiar with your product, and this familiarity will help the stakeholder understand how effective it is. It's very easy to get quantitative data using your <a href="https://en.wikipedia.org/wiki/Analytics" target="_blank">analytics</a> systems if you have a real user on your product. You can also use <a href="https://en.wikipedia.org/wiki/Continuous_delivery" target="_blank">continuous delivery</a> with this quantitative data to release a new feature early.
+</p>
+</div>
+
+<div style="text-align: left;font-family:sans-serif;">
+<h3>Summary</h3>
+</div>
+<hr />
+<div style="text-align: justify;word-break: break-all;font-family:sans-serif;word-spacing: 0px;">
+<p>
+  Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.
+</p>
+<p>
+  Instead of doing that solution and making a prototype right away, you have to see the problem and understand it completely before coming up with a solution. You will find a lot of problems in the double diamonds model, and you will find the most important problems. Then you'll discover a plethora of options, including the most pressing one. The order in which your workshops are held is determined by the stakeholders involved.
+</p>
+<p>
+  The User Experience team conducts a requirement gathering process with users. Many successful businesses combine their development and user experience teams into one process. Quantitative research is only useful if your product is already in use by the user. It's very easy to get quantitative data using your analytics systems if you have a real user on your product. You can also use continuous delivery with this quantitative data to release a new feature early. In the requirement gathering process, the User Experience practitioner is your best ally.
+</p>
+</div>
+
+<hr />
+
+<div class="desktop__size ">
+  <div class="d-flex align-items-center">
+    <div class="align-self-center">
+      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+    </div>
+    &nbsp;
+    <div class="align-self-center">
+      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
+      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+<div class="mobile__size">
+    <div class="d-flex align-items-center justify-content-start">
+        <div class="align-self-center">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        &nbsp;
+        <div class="align-self-center">
+            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2021/03/29/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+</div>
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+
+      </div>
+    </div>
+    
+    <footer class="footer mt-auto">
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex bg-light p-0">
+                <div class="list-group m-1">
+                    <span class="list-group-item list-group-item-action border-0 p-1"
+                        style="background-color: transparent text-left">
+                        &copy; 2024 Edison Pebojot
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
   </div>
   </div>
 
@@ -3311,21 +4076,22 @@ This type of requirement gathering is <a href="https://en.wikipedia.org/wiki/Qua
 </body>
 
 <script>
-window.onscroll = function() {myFunction()};
+  window.onscroll = function () { myFunction() };
 
-var navbar2 = document.getElementById("navbar2");
-var sticky = navbar2.offsetTop;
+  var navbar2 = document.getElementById("navbar2");
+  var sticky = navbar2.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar2.classList.add("sticky-top");
-    navbar2.classList.add("bg-light");
-    navbar2.classList.add("rounded-bottom");
-  } else {
-    navbar2.classList.remove("sticky-top");
-    navbar2.classList.remove("bg-light");
-    navbar2.classList.remove("rounded-bottom");
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar2.classList.add("sticky-top");
+      navbar2.classList.add("bg-light");
+      navbar2.classList.add("rounded-bottom");
+    } else {
+      navbar2.classList.remove("sticky-top");
+      navbar2.classList.remove("bg-light");
+      navbar2.classList.remove("rounded-bottom");
+    }
   }
-}
 </script>
+
 </html>
