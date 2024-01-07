@@ -14,7 +14,7 @@
                 {% if item.name=="Research" %}
                     <a class="dropdown-item" href="#"
                     title="{{ item.title }}" disabled>
-                        <span class="home-hover fixed">
+                        <span class="home-hover block fixed">
                             {{ item.name }}
                         </span>
                     </a>
@@ -61,12 +61,21 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         {% if item.link!="/"%}
-        <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
+        {% if item.name=="Research" %}
+            <a class="nav-link border-0" data-toggle="tabs" href="#">
+                <span class="home-hover block fixed">
+                    {{ item.name }}
+                </span>
+            </a>
+        {% else %}
+            <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
             href="{{ item.link }}">
-            <span class="home-hover block">
-                {{ item.name }}
-            </span>
-        </a>
+                <span class="home-hover block">
+                    {{ item.name }}
+                </span>
+            </a>
+        {% endif %}
+
         {% endif %}
     </span>
 </span>
