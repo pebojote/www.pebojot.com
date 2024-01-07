@@ -1,10 +1,65 @@
-- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
-  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114562&authkey=%21AHMv24m54B2Ju0o"
-  alt: "Image 5"
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110704&authkey=%21AP0lkTDl0ggqqaA"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110704&authkey=%21AP0lkTDl0ggqqaA"
+  alt: "Image 1"
   latest: "false"
   type: "image"
-  title: "Embracing the Horizon"
-  mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
-  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
-  date: "2022-05-01"  # Corrected date format
-  page_url: "https://www.pebojot.com/2022/05/01/hiking/"
+  title: "Scaling the Heights of Adventure"
+  mobile_description: "It was an exhilarating and challenging experience that tested my physical and mental limits."
+  desktop_description: "The view from the top was breathtaking and rewarding. I felt a sense of accomplishment and gratitude for being able to enjoy the beauty of nature. Stone climbing is not for the faint of heart, but it is definitely worth trying at least once in your life. You never know what you might discover about yourself and the world around you."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110708&authkey=%21AEb8ry2UX_dkukI"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110708&authkey=%21AEb8ry2UX_dkukI"
+  alt: "Image 2"
+  latest: "false"
+  type: "image"
+  title: "Scaling New Heights"
+  mobile_description: "In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit."
+  desktop_description: "In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit. It’s a dance between human spirit and nature’s grandeur. The moment encapsulates the thrill of adventure, the joy of achievement, and the satisfaction of pushing personal boundaries."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110689&authkey=%21APcJ7xGCPqvy7_Q"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110689&authkey=%21APcJ7xGCPqvy7_Q"
+  alt: "Image 3"
+  latest: "false"
+  type: "image"
+  title: "Rush and tranquility"
+  mobile_description: "The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent."
+  desktop_description: "The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent. The experience is a blend of adrenaline rush and tranquility, as I scale nature’s monolith, with the rustling leaves and the cool touch of the stone as my companions. This moment encapsulates the thrill of adventure and the beauty of nature, intertwined in a single frame."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110675&authkey=%21ACon9oGOWXfLZHM"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110675&authkey=%21ACon9oGOWXfLZHM"
+  alt: "Image 4"
+  latest: "false"
+  type: "image"
+  title: "Embracing the Misty Peaks"
+  mobile_description: "Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe."
+  desktop_description: "Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe. The misty atmosphere adds a layer of mystery and excitement to your adventure, making this a truly memorable experience. This image beautifully encapsulates the essence of your journey - a testament to human resilience and the joy of exploration."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
+  alt: "Image 5
+  latest: "false"
+  type: "image"
+  title: "Scaling Heights with the Maroons"
+  mobile_description: "I felt a sense of unity and resilience. The grey, cloudy sky and the lush greenery around us painted a picture of serene beauty. As we stood close to each other, the bonds of friendship felt stronger than ever."
+  desktop_description: "As we stood close to each other, the bonds of friendship felt stronger than ever. This moment, captured amidst the hilly terrain, is a testament to our shared journey and the memories we created. It was not just about conquering the peak, but also about cherishing the journey and the companionship. A truly unforgettable day!"
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+
+- src: "/assets/videos/Stone-Climb-August.mp4"
+  thumbnail: "/assets/videos/Stone-Climb-August.mp4"
+  alt: "Video 1
+  latest: "true"
+  type: "video"
+  title: "Scaling the Heights of Mountain"
+  mobile_description: "I had an amazing time stone climbing in Dingalan, Central Luzon, Philippines. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping."
+  desktop_description: "I had an amazing time stone climbing in Dingalan, Central Luzon, Philippines. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
