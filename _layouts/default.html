@@ -128,7 +128,7 @@
       {% include navigation.html %}
     </nav>
     {% for item in site.data.navigation %}
-    <div class="tab-content p-0 m-1">
+    <div class="tab-content p-1">
       <div class="tab-pane container {% if page.url==item.link %}active{% endif %} p-0">
         {{ content }}
       </div>
