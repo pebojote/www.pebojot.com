@@ -42,6 +42,17 @@
   date: "2023-12-1"  # Corrected date format
   page_url: "https://www.pebojot.com/2023/12/01/biking/"
 
+- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2115328&authkey=%21AAVehIIO7A-vfWs"
+  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2115328&authkey=%21AAVehIIO7A-vfWs"
+  alt: "Image 5"
+  latest: "false"
+  type: "image"
+  title: "A Pause in Time"
+  mobile_description: "As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape."
+  desktop_description: "As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. The pond, a mirror reflecting the stark beauty of the leafless trees, was a testament to nature’s resilience."
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/12/01/biking/"
+
 - src: "/assets/videos/202401-07-0_2.mp4"
   thumbnail: "/assets/videos/202401-07-0_2.mp4"
   alt: "Video 1"

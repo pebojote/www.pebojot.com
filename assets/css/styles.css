@@ -76,7 +76,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 990px) {
   #flex-gh-button-hide,
   .date__text-one--active,
   .navbar__desktop,
@@ -89,40 +89,6 @@
   .navbar__mobile,
   .mobile__size {
     display: inline;
-  }
-}
-
-/* Custom styling for different image sizes */
-.custom-img {
-  max-width: 100%;
-  height: auto;
-}
-
-@media (min-width: 576px) {
-  /* Adjust styles for small devices (sm) */
-  .custom-img {
-    /* Customize as needed for small devices */
-  }
-}
-
-@media (min-width: 768px) {
-  /* Adjust styles for medium devices (md) */
-  .custom-img {
-    /* Customize as needed for medium devices */
-  }
-}
-
-@media (min-width: 992px) {
-  /* Adjust styles for large devices (lg) */
-  .custom-img {
-    /* Customize as needed for large devices */
-  }
-}
-
-@media (min-width: 1200px) {
-  /* Adjust styles for extra-large devices (xl) */
-  .custom-img {
-    /* Customize as needed for extra-large devices */
   }
 }
 

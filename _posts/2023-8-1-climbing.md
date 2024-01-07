@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rock/Stone Climbing
+title: Rock/Stone/Sports Climbing
 author: Pebojot
 date: 2023-8-1
 image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110689&authkey=%21APcJ7xGCPqvy7_Q
