@@ -42,16 +42,16 @@
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/hiking/"
 
-- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
-  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114562&authkey=%21AHMv24m54B2Ju0o"
-  alt: "Image 5"
-  latest: "false"
-  type: "image"
-  title: "Embracing the Horizon"
-  mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
-  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
-  date: "2022-05-01"  # Corrected date format
-  page_url: "https://www.pebojot.com/2022/05/01/hiking/"
+# - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114561&authkey=%21ALGBuSdpLxcmE0M"
+#   thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2114562&authkey=%21AHMv24m54B2Ju0o"
+#   alt: "Image 5"
+#   latest: "false"
+#   type: "image"
+#   title: "Embracing the Horizon"
+#   mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
+#   desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
+#   date: "2022-05-01"  # Corrected date format
+#   page_url: "https://www.pebojot.com/2022/05/01/hiking/"
 
 - src: "/assets/videos/Mt. Pinginan.mp4"
   thumbnail: "/assets/videos/Mt. Pinginan.mp4"
