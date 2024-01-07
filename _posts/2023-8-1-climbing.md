@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embracing the Horizon
+title: Rock/Stone Climbing
 author: Pebojot
 date: 2023-8-1
 image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110707&authkey=%21ACzXejOJposD9b0
