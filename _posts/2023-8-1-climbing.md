@@ -6,7 +6,7 @@ date: 2023-8-1
 image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%217861&authkey=%21AHXT-pJfSAFMIr0
 latest: false
 project_url: 2023/8/1/climbing/
-type: p&v
+type: pv
 ---
 
 <div class="container p-0">
