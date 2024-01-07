@@ -44,7 +44,7 @@
 
 - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
   thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
-  alt: "Image 5
+  alt: "Image 5"
   latest: "false"
   type: "image"
   title: "Scaling Heights with the Maroons"
@@ -55,7 +55,7 @@
 
 - src: "/assets/videos/Stone-Climb-August.mp4"
   thumbnail: "/assets/videos/Stone-Climb-August.mp4"
-  alt: "Video 1
+  alt: "Video 1"
   latest: "true"
   type: "video"
   title: "Scaling the Heights of Mountain"
