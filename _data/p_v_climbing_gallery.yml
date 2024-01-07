@@ -42,16 +42,16 @@
   date: "2023-8-1"  # Corrected date format
   page_url: "https://www.pebojot.com/2023/8/1/climbing/"
 
-- src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
-  thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
-  alt: "Image 5"
-  latest: "false"
-  type: "image"
-  title: "Scaling Heights with the Maroons"
-  mobile_description: "I felt a sense of unity and resilience. The grey, cloudy sky and the lush greenery around us painted a picture of serene beauty. As we stood close to each other, the bonds of friendship felt stronger than ever."
-  desktop_description: "As we stood close to each other, the bonds of friendship felt stronger than ever. This moment, captured amidst the hilly terrain, is a testament to our shared journey and the memories we created. It was not just about conquering the peak, but also about cherishing the journey and the companionship. A truly unforgettable day!"
-  date: "2023-8-1"  # Corrected date format
-  page_url: "https://www.pebojot.com/2023/8/1/climbing/"
+# - src: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
+#   thumbnail: "https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2110666&authkey=%21AL5p5WGp8g_uvhc"
+#   alt: "Image 5"
+#   latest: "false"
+#   type: "image"
+#   title: "Scaling Heights with the Maroons"
+#   mobile_description: "I felt a sense of unity and resilience. The grey, cloudy sky and the lush greenery around us painted a picture of serene beauty. As we stood close to each other, the bonds of friendship felt stronger than ever."
+#   desktop_description: "As we stood close to each other, the bonds of friendship felt stronger than ever. This moment, captured amidst the hilly terrain, is a testament to our shared journey and the memories we created. It was not just about conquering the peak, but also about cherishing the journey and the companionship. A truly unforgettable day!"
+#   date: "2023-8-1"  # Corrected date format
+#   page_url: "https://www.pebojot.com/2023/8/1/climbing/"
 
 - src: "/assets/videos/Stone-Climb-August.mp4"
   thumbnail: "/assets/videos/Stone-Climb-August.mp4"
