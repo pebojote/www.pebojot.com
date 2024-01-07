@@ -148,6 +148,7 @@ title: Home
     <div class="row">
         <div class="col bg-light p-0">
             <div class="list-group m-1">
+                <!-- HIKING -->
                 {% assign p_v_hiking_data = site.data.p_v_hiking_gallery %}
                 {% for p_v_hiking in p_v_hiking_data %}
                 {% if p_v_hiking.latest=="true" %}
@@ -190,8 +191,106 @@ title: Home
                         </div>
                     </div>
                 </a>
-                <a href="{{p_v_hiking.page_url}}"
-                    class="list-group-item list-group-item-action border-0 p-0" style="background-color: transparent">
+                <a href="{{p_v_hiking.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                {% endif %}
+                {% endfor %}
+                <!-- STONE CLIMBING -->
+                {% assign p_v_climbing_data = site.data.p_v_climbing_gallery %}
+                {% for p_v_climbing in p_v_climbing_data %}
+                {% if p_v_climbing.latest=="true" %}
+                <a href="{{ p_v_climbing.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                {% if p_v_climbing.type=="video" %}
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="{{ p_v_climbing.thumbnail }}" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                {% else %}
+                                <img src="{{ p_v_climbing.thumbnail }}" class="img-thumbnail" altp_v_climbing.alt }}">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{ p_v_climbing.title }}</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            {{ p_v_climbing.desktop_description }}
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            {{ p_v_climbing.mobile_description }}
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            {{ p_v_climbing.date | date_to_string }}
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{p_v_climbing.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                {% endif %}
+                {% endfor %}
+                <!-- BIKING -->
+                {% assign p_v_biking_data = site.data.p_v_biking_gallery %}
+                {% for p_v_biking in p_v_biking_data %}
+                {% if p_v_biking.latest=="true" %}
+                <a href="{{ p_v_biking.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                {% if p_v_biking.type=="video" %}
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item w-100" controls>
+                                        <source src="{{ p_v_biking.thumbnail }}" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                                {% else %}
+                                <img src="{{ p_v_biking.thumbnail }}" class="img-thumbnail" altp_v_biking.alt }}">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{ p_v_biking.title }}</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            {{ p_v_biking.desktop_description }}
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            {{ p_v_biking.mobile_description }}
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            {{ p_v_biking.date | date_to_string }}
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{p_v_biking.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
                     See More
                 </a>
                 {% endif %}
