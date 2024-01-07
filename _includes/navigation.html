@@ -11,7 +11,7 @@
             {% for item in nav_items %}
             {% if item.link and item.name %}
             <li>
-                {% if item.name=="Research" and item.name == "Podcast" %}
+                {% if item.name=="Research" or item.name == "Podcast" %}
                     <a class="dropdown-item" href="#"
                     title="{{ item.title }}" disabled>
                         <span class="home-hover block fixed">
@@ -61,7 +61,7 @@
 <span class="navbar__desktop">
     <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
         {% if item.link!="/"%}
-        {% if item.name=="Research" and item.name == "Podcast" %}
+        {% if item.name=="Research" or item.name == "Podcast" %}
             <a class="nav-link border-0" data-toggle="tabs" href="#">
                 <span class="home-hover block fixed">
                     {{ item.name }}
