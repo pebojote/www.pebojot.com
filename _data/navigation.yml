@@ -2,11 +2,15 @@
   link: /
 - name: Blog
   link: /blog/
-- name: Photograph & Video
-  link: /pv/
 # - name: Event
 #   link: /event/
 - name: Project
   link: /project/
+- name: Podcast
+  link: /podcast/
+- name: Research
+  link: /research/
+- name: Photograph & Video
+  link: /pv/
 - name: About
   link: /about/
