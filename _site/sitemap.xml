@@ -89,6 +89,10 @@
 <lastmod>2023-08-01T00:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:3000/2023/12/01/podcast/</loc>
+<lastmod>2023-12-01T00:00:00+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:3000/2023/12/01/biking/</loc>
 <lastmod>2023-12-01T00:00:00+00:00</lastmod>
 </url>
@@ -107,6 +111,9 @@
 </url>
 <url>
 <loc>http://localhost:3000/</loc>
+</url>
+<url>
+<loc>http://localhost:3000/podcast/</loc>
 </url>
 <url>
 <loc>http://localhost:3000/project/</loc>

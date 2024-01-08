@@ -1,0 +1,38 @@
+---
+layout: default
+title: Podcast
+---
+
+<div class="container-fluid p-0">
+  <div class="row rounded-left">
+    <div class="col p-0">
+      <span class=" mobile__size">
+        <div class="d-flex justify-content-right">
+          <a href="/podcast/" class="list-group-item list-group-item-action" tabindex="-1" aria-disabled="true">
+            <h1>Podcast</h1>
+          </a>
+        </div>
+      </span>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-1">
+        {% for post in site.posts %}
+        {% if post.type=="podcast" %}
+        <div class="col p-0">
+          <div class="card h-100">
+            <div class="card-header">
+              {{ post.title }}
+            </div>
+            <a href="{{ post.url }}" class="btn btn-light" role="button">
+              <img src="{{ post.image_url }}" class="card-img-top img-fluid" alt="{{ post.title }}">
+            </a>
+            <div class="card-footer">
+              <small class="text-muted">{{ post.date | date_to_string }}</small>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>

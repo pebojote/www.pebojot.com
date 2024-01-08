@@ -158,12 +158,13 @@ title: Home
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
                                 {% if p_v_hiking.type=="video" %}
-                                <div class="embed-responsive embed-responsive-16by9">
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
                                     <video class="embed-responsive-item w-100" controls>
                                         <source src="{{ p_v_hiking.thumbnail }}" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                </div>
+                                </div> -->
+                                {% youtube p_v_hiking.thumbnail %}
                                 {% else %}
                                 <img src="{{ p_v_hiking.thumbnail }}" class="img-thumbnail" altp_v_hiking.alt }}">
                                 {% endif %}
@@ -207,12 +208,13 @@ title: Home
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
                                 {% if p_v_climbing.type=="video" %}
-                                <div class="embed-responsive embed-responsive-16by9">
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
                                     <video class="embed-responsive-item w-100" controls>
                                         <source src="{{ p_v_climbing.thumbnail }}" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                </div>
+                                </div> -->
+                                {% youtube p_v_climbing.thumbnail %}
                                 {% else %}
                                 <img src="{{ p_v_climbing.thumbnail }}" class="img-thumbnail" altp_v_climbing.alt }}">
                                 {% endif %}
@@ -256,12 +258,13 @@ title: Home
                         <div class="row g-0 d-flex align-items-center">
                             <div class="col-md-6">
                                 {% if p_v_biking.type=="video" %}
-                                <div class="embed-responsive embed-responsive-16by9">
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
                                     <video class="embed-responsive-item w-100" controls>
                                         <source src="{{ p_v_biking.thumbnail }}" type="video/mp4">
                                         Your browser does not support the video tag.
                                     </video>
-                                </div>
+                                </div> -->
+                                {% youtube p_v_biking.thumbnail %}
                                 {% else %}
                                 <img src="{{ p_v_biking.thumbnail }}" class="img-thumbnail" altp_v_biking.alt }}">
                                 {% endif %}
@@ -290,6 +293,71 @@ title: Home
                     </div>
                 </a>
                 <a href="{{p_v_biking.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    See More
+                </a>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="mt-3 mb-3" style="border-style: dashed none none none;"></div>
+    <div class="mt-3 mb-3">
+        <h2 class="display-6" style="text-align: center;">
+            Latest Podcast
+        </h2>
+        <h6 class="text-uppercase text-center fw-light">
+            Engineering, Architecture, Science
+        </h6>
+    </div>
+    <div class="row">
+        <div class="col bg-light p-0">
+            <div class="list-group m-1">
+                <!-- PODCAST -->
+                {% assign software_engineering_playlist_podcast_data = site.data.software_engineering_playlist_podcast %}
+                {% for software_engineering_playlist_podcast in software_engineering_playlist_podcast_data %}
+                {% if software_engineering_playlist_podcast.latest=="true" %}
+                <a href="{{ software_engineering_playlist_podcast.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                    style="background-color: transparent">
+                    <div class="card mb-3 rounded">
+                        <div class="row g-0 d-flex align-items-center">
+                            <div class="col-md-6">
+                                {% if software_engineering_playlist_podcast.type=="video" %}
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
+                                             <video class="embed-responsive-item w-100" controls>
+                                                 <source src="{{ software_engineering_playlist_podcast.thumbnail }}" type="video/mp4">
+                                                 Your browser does not support the video tag.
+                                             </video>
+                                         </div> -->
+                                {% youtube software_engineering_playlist_podcast.thumbnail %}
+                                {% else %}
+                                <img src="{{ software_engineering_playlist_podcast.thumbnail }}" class="img-thumbnail" altsoftware_engineering_playlist_podcast.alt }}">
+                                {% endif %}
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{ software_engineering_playlist_podcast.title }}</h4>
+                                    <span class="desktop__size ">
+                                        <p class="card-text lead" style="text-align: justify;">
+                                            {{ software_engineering_playlist_podcast.desktop_description }}
+                                        </p>
+                                    </span>
+                                    <span class="mobile__size ">
+                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                            {{ software_engineering_playlist_podcast.mobile_description }}
+                                        </p>
+                                    </span>
+                                    <p class="card-text">
+                                        <small class="text-muted">
+                                            {{ software_engineering_playlist_podcast.date | date_to_string }}
+                                        </small>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="{{software_engineering_playlist_podcast.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
                 </a>

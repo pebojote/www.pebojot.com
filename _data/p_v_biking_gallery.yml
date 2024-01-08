@@ -53,13 +53,24 @@
   date: "2023-8-1"  # Corrected date format
   page_url: "https://www.pebojot.com/2023/12/01/biking/"
 
-- src: "/assets/videos/202401-07-0_2.mp4"
-  thumbnail: "/assets/videos/202401-07-0_2.mp4"
+- src: "https://www.youtube.com/watch?v=1ZpTYiePsM0"
+  thumbnail: "https://www.youtube.com/watch?v=1ZpTYiePsM0"
   alt: "Video 1"
+  latest: "false"
+  type: "video"
+  title: "How I Survived a 8.9 km Hike with No Water"
+  mobile_description: "I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂"
+  desktop_description: "I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂"
+  date: "2023-8-1"  # Corrected date format
+  page_url: "https://www.pebojot.com/2023/12/01/biking/"
+
+- src: "https://www.youtube.com/watch?v=OARlmwDnTRU"
+  thumbnail: "https://www.youtube.com/watch?v=OARlmwDnTRU"
+  alt: "Video 2"
   latest: "true"
   type: "video"
-  title: "8.9 km Adventures: Navigating Life's Hurdles"
-  mobile_description: "So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs."
-  desktop_description: "So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!"
+  title: "A Repeat Retreat to the Tranquil Camping Haven"
+  mobile_description: "Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more."
+  desktop_description: "Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more."
   date: "2023-8-1"  # Corrected date format
   page_url: "https://www.pebojot.com/2023/12/01/biking/"

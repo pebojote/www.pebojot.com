@@ -53,14 +53,14 @@
 #   date: "2023-8-1"  # Corrected date format
 #   page_url: "https://www.pebojot.com/2023/08/01/climbing/"
 
-- src: "/assets/videos/Stone-Climb-August.mp4"
-  thumbnail: "/assets/videos/Stone-Climb-August.mp4"
+- src: "https://www.youtube.com/watch?v=QGNPayhPiL8"
+  thumbnail: "https://www.youtube.com/watch?v=QGNPayhPiL8"
   alt: "Video 1"
   latest: "true"
   type: "video"
-  title: "Scaling the Heights of Mountain"
-  mobile_description: "I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping."
-  desktop_description: "I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget."
+  title: "Rainy Ascent & Chilly Peaks"
+  mobile_description: "We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. Following that, we engaged in a variety of activities, including climbing stones at the summit."
+  desktop_description: "We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. "
   date: "2023-8-1"  # Corrected date format
   page_url: "https://www.pebojot.com/2023/08/01/climbing/"
 

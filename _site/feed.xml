@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2024-01-07T23:31:32+00:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Future of Web Design Powered by AI</title><link href="http://localhost:3000/2023/12/30/blog/" rel="alternate" type="text/html" title="The Future of Web Design Powered by AI" /><published>2023-12-30T00:00:00+00:00</published><updated>2023-12-30T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/30/blog</id><content type="html" xml:base="http://localhost:3000/2023/12/30/blog/"><![CDATA[<p><img src="/assets/images/2023-12-30-blog-cover.png" class="rounded img-fluid" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2024-01-08T01:32:58+00:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Future of Web Design Powered by AI</title><link href="http://localhost:3000/2023/12/30/blog/" rel="alternate" type="text/html" title="The Future of Web Design Powered by AI" /><published>2023-12-30T00:00:00+00:00</published><updated>2023-12-30T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/30/blog</id><content type="html" xml:base="http://localhost:3000/2023/12/30/blog/"><![CDATA[<p><img src="/assets/images/2023-12-30-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>The Future of Web Design Powered by AI</h2>
@@ -233,7 +233,120 @@ In the end, it's about creating a website that adapts to different devices (resp
 <br />
 <br />
 <br />
-<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.]]></summary></entry><entry><title type="html">Bikepacking/Trek/Trail</title><link href="http://localhost:3000/2023/12/01/biking/" rel="alternate" type="text/html" title="Bikepacking/Trek/Trail" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/biking</id><content type="html" xml:base="http://localhost:3000/2023/12/01/biking/"><![CDATA[<div class="container p-0">
+<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.]]></summary></entry><entry><title type="html">Software/Engineering</title><link href="http://localhost:3000/2023/12/01/podcast/" rel="alternate" type="text/html" title="Software/Engineering" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/podcast</id><content type="html" xml:base="http://localhost:3000/2023/12/01/podcast/"><![CDATA[<div class="container p-0">
+    <div class="row p-0">
+      
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=ZfoB6NfLqHs" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/ZfoB6NfLqHs" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 3: The Software Industry's Project Management.</h5>
+              <div class="accordion" id="accordionExample1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse block" aria-labelledby="heading1" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut.</span>
+                        <span class="mobile__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=Tg5PpvTd5lo" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/Tg5PpvTd5lo" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 2: The Basics of Software Requirement Gathering</h5>
+              <div class="accordion" id="accordionExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse block" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.</span>
+                        <span class="mobile__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=MndotKJNlF4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/MndotKJNlF4" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 1: Navigating Ethical Waters in Software Development</h5>
+              <div class="accordion" id="accordionExample3">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators.</span>
+                        <span class="mobile__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+    </div>
+  </div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Episode 3: The Software Industry's Project Management. Description Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut. Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. Episode 2: The Basics of Software Requirement Gathering Description Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders. Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. Episode 1: Navigating Ethical Waters in Software Development Description In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators. In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.]]></summary></entry><entry><title type="html">Bikepacking/Trek/Trail</title><link href="http://localhost:3000/2023/12/01/biking/" rel="alternate" type="text/html" title="Bikepacking/Trek/Trail" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/biking</id><content type="html" xml:base="http://localhost:3000/2023/12/01/biking/"><![CDATA[<div class="container p-0">
   <div class="row p-0">
     
     
@@ -242,15 +355,15 @@ In the end, it's about creating a website that adapts to different devices (resp
         
         <!-- <div class="embed-responsive embed-responsive-16by9">
           <video class="embed-responsive-item w-100" controls>
-            <source src="/assets/videos/202401-07-0_2.mp4" type="video/mp4">
+            <source src="https://www.youtube.com/watch?v=OARlmwDnTRU" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div> -->
-        <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/" frameborder="0" allowfullscreen=""></iframe></div>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/OARlmwDnTRU" frameborder="0" allowfullscreen=""></iframe></div>
         
         <span class="mobile__size">
           <div class="card-body">
-            <h5 class="card-title fw-lighter">8.9 km Adventures: Navigating Life's Hurdles</h5>
+            <h5 class="card-title fw-lighter">A Repeat Retreat to the Tranquil Camping Haven</h5>
             <div class="accordion" id="accordionExample1">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading1">
@@ -261,8 +374,44 @@ In the end, it's about creating a website that adapts to different devices (resp
                 <div id="collapse1" class="accordion-collapse collapse block" aria-labelledby="heading1" data-bs-parent="#accordionExample1">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
-                      <span class="desktop__size">So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure!</span>
-                      <span class="mobile__size">So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs.</span>
+                      <span class="desktop__size">Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more.</span>
+                      <span class="mobile__size">Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more.</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+    
+    <div class="col-md-4 mt-3 col-lg-3 p-0">
+      <div class="card">
+        
+        <!-- <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item w-100" controls>
+            <source src="https://www.youtube.com/watch?v=1ZpTYiePsM0" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div> -->
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/1ZpTYiePsM0" frameborder="0" allowfullscreen=""></iframe></div>
+        
+        <span class="mobile__size">
+          <div class="card-body">
+            <h5 class="card-title fw-lighter">How I Survived a 8.9 km Hike with No Water</h5>
+            <div class="accordion" id="accordionExample2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading2">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    Description
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse block" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
+                  <div class="accordion-body">
+                    <p class="card-text fw-lighter">
+                      <span class="desktop__size">I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂</span>
+                      <span class="mobile__size">I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂</span>
                     </p>
                   </div>
                 </div>
@@ -281,14 +430,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         <span class="mobile__size">
           <div class="card-body">
             <h5 class="card-title fw-lighter">A Pause in Time</h5>
-            <div class="accordion" id="accordionExample2">
+            <div class="accordion" id="accordionExample3">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="heading2">
-                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                     Description
                   </button>
                 </h2>
-                <div id="collapse2" class="accordion-collapse collapse block" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
+                <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
                       <span class="desktop__size">As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. The pond, a mirror reflecting the stark beauty of the leafless trees, was a testament to nature’s resilience.</span>
@@ -311,14 +460,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         <span class="mobile__size">
           <div class="card-body">
             <h5 class="card-title fw-lighter">Journey’s Pause</h5>
-            <div class="accordion" id="accordionExample3">
+            <div class="accordion" id="accordionExample4">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="heading3">
-                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                     Description
                   </button>
                 </h2>
-                <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
+                <div id="collapse4" class="accordion-collapse collapse block" aria-labelledby="heading4" data-bs-parent="#accordionExample4">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
                       <span class="desktop__size">Just took a breather from a thrilling ride up the hills. Parked my bike against this wooden railing, and boy, what a view! Mountains meeting the sea, under a clear sky - nature at its best. Felt like I was on top of the world. Can’t wait to hit the trail again!</span>
@@ -341,14 +490,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         <span class="mobile__size">
           <div class="card-body">
             <h5 class="card-title fw-lighter">Riding with the Waves</h5>
-            <div class="accordion" id="accordionExample4">
+            <div class="accordion" id="accordionExample5">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="heading4">
-                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                <h2 class="accordion-header" id="heading5">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                     Description
                   </button>
                 </h2>
-                <div id="collapse4" class="accordion-collapse collapse block" aria-labelledby="heading4" data-bs-parent="#accordionExample4">
+                <div id="collapse5" class="accordion-collapse collapse block" aria-labelledby="heading5" data-bs-parent="#accordionExample5">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
                       <span class="desktop__size">Just had an amazing day riding along this beautiful coastline. The sound of the waves crashing and the sea breeze made it all the more refreshing. My trusty bike, equipped with my essentials, was my companion on this journey. The greenery meeting the beach was a sight to behold. It was a day well spent, embracing the harmony of nature and adventure. Can’t wait for more rides like this!</span>
@@ -371,14 +520,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         <span class="mobile__size">
           <div class="card-body">
             <h5 class="card-title fw-lighter">Muddy Trails and Gears</h5>
-            <div class="accordion" id="accordionExample5">
+            <div class="accordion" id="accordionExample6">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="heading5">
-                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                <h2 class="accordion-header" id="heading6">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
                     Description
                   </button>
                 </h2>
-                <div id="collapse5" class="accordion-collapse collapse block" aria-labelledby="heading5" data-bs-parent="#accordionExample5">
+                <div id="collapse6" class="accordion-collapse collapse block" aria-labelledby="heading6" data-bs-parent="#accordionExample6">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
                       <span class="desktop__size">Just got back from an epic ride! The trails were muddy, but that didn’t stop me. My bike’s gears are caked in mud - a sign of a day well spent. Can’t wait to clean her up and get back out there!</span>
@@ -401,14 +550,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         <span class="mobile__size">
           <div class="card-body">
             <h5 class="card-title fw-lighter">Journey’s Pause: Embracing the Sea</h5>
-            <div class="accordion" id="accordionExample6">
+            <div class="accordion" id="accordionExample7">
               <div class="accordion-item">
-                <h2 class="accordion-header" id="heading6">
-                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                <h2 class="accordion-header" id="heading7">
+                  <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
                     Description
                   </button>
                 </h2>
-                <div id="collapse6" class="accordion-collapse collapse block" aria-labelledby="heading6" data-bs-parent="#accordionExample6">
+                <div id="collapse7" class="accordion-collapse collapse block" aria-labelledby="heading7" data-bs-parent="#accordionExample7">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
                       <span class="desktop__size">There I was, taking a breather from my cycling journey. The sea was my companion, its waves rhythmically crashing onto the shore. My bike, laden with bags, stood as a testament to the miles traveled and the adventures experienced. The clear sky overhead seemed to echo my sense of freedom. This wasn’t just a ride, it was a story unfolding with each pedal stroke.</span>
@@ -424,7 +573,7 @@ In the end, it's about creating a website that adapts to different devices (resp
     </div>
     
   </div>
-</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[8.9 km Adventures: Navigating Life's Hurdles Description So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. Oh, and get this—I hit a hydration low on the journey, so what's a gal to do? I channel my inner survivalist and take a swig from a spring. LOL! Life's an adventure! So, check this out—I spill the beans about my life's hurdles, right? I cover a whopping 8.9 km of ground. Now, I'm not totally sold on Google Maps being the distance guru, but trust me, it feels like a marathon, especially with all those steep climbs. A Pause in Time Description As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. The pond, a mirror reflecting the stark beauty of the leafless trees, was a testament to nature’s resilience. As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. Journey’s Pause Description Just took a breather from a thrilling ride up the hills. Parked my bike against this wooden railing, and boy, what a view! Mountains meeting the sea, under a clear sky - nature at its best. Felt like I was on top of the world. Can’t wait to hit the trail again! Just took a breather from a thrilling ride up the hills. Parked my bike against this wooden railing, and boy, what a view! Mountains meeting the sea, under a clear sky - nature at its best. Riding with the Waves Description Just had an amazing day riding along this beautiful coastline. The sound of the waves crashing and the sea breeze made it all the more refreshing. My trusty bike, equipped with my essentials, was my companion on this journey. The greenery meeting the beach was a sight to behold. It was a day well spent, embracing the harmony of nature and adventure. Can’t wait for more rides like this! Just had an amazing day riding along this beautiful coastline. The sound of the waves crashing and the sea breeze made it all the more refreshing. My trusty bike, equipped with my essentials, was my companion on this journey. Muddy Trails and Gears Description Just got back from an epic ride! The trails were muddy, but that didn’t stop me. My bike’s gears are caked in mud - a sign of a day well spent. Can’t wait to clean her up and get back out there! Just got back from an epic ride! The trails were muddy, but that didn’t stop me. My bike’s gears are caked in mud - a sign of a day well spent. Can’t wait to clean her up and get back out there! Journey’s Pause: Embracing the Sea Description There I was, taking a breather from my cycling journey. The sea was my companion, its waves rhythmically crashing onto the shore. My bike, laden with bags, stood as a testament to the miles traveled and the adventures experienced. The clear sky overhead seemed to echo my sense of freedom. This wasn’t just a ride, it was a story unfolding with each pedal stroke. There I was, taking a breather from my cycling journey. The sea was my companion, its waves rhythmically crashing onto the shore. My bike, laden with bags, stood as a testament to the miles traveled and the adventures experienced.]]></summary></entry><entry><title type="html">Rock/Stone/Sports Climbing</title><link href="http://localhost:3000/2023/08/01/climbing/" rel="alternate" type="text/html" title="Rock/Stone/Sports Climbing" /><published>2023-08-01T00:00:00+00:00</published><updated>2023-08-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/08/01/climbing</id><content type="html" xml:base="http://localhost:3000/2023/08/01/climbing/"><![CDATA[<div class="container p-0">
+</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[A Repeat Retreat to the Tranquil Camping Haven Description Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more. Recently arrived at a camping site. I'm eager to revisit this spot repeatedly; the experience of ascending here was genuinely rejuvenating. The air is incredibly fresh, and individuals engage in meaningful conversations, truly immersing themselves in the present moment. Away from the clamor of the world, surrounded by nature, finding peace of mind. It's simply reconnecting with the natural world once more. How I Survived a 8.9 km Hike with No Water Description I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂 I’m telling you, it was tough. I had to go 8.9 km. I’m not sure if that’s what Google Maps said, but it felt like a long way. And the hills were crazy. I finished my water halfway and had to drink from the spring 😂 A Pause in Time Description As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. The pond, a mirror reflecting the stark beauty of the leafless trees, was a testament to nature’s resilience. As I journeyed through the countryside, I found myself at a tranquil spot that seemed untouched by time. I leaned my bicycle against a weathered barbed wire fence, the only sign of human intervention in this serene landscape. Journey’s Pause Description Just took a breather from a thrilling ride up the hills. Parked my bike against this wooden railing, and boy, what a view! Mountains meeting the sea, under a clear sky - nature at its best. Felt like I was on top of the world. Can’t wait to hit the trail again! Just took a breather from a thrilling ride up the hills. Parked my bike against this wooden railing, and boy, what a view! Mountains meeting the sea, under a clear sky - nature at its best. Riding with the Waves Description Just had an amazing day riding along this beautiful coastline. The sound of the waves crashing and the sea breeze made it all the more refreshing. My trusty bike, equipped with my essentials, was my companion on this journey. The greenery meeting the beach was a sight to behold. It was a day well spent, embracing the harmony of nature and adventure. Can’t wait for more rides like this! Just had an amazing day riding along this beautiful coastline. The sound of the waves crashing and the sea breeze made it all the more refreshing. My trusty bike, equipped with my essentials, was my companion on this journey. Muddy Trails and Gears Description Just got back from an epic ride! The trails were muddy, but that didn’t stop me. My bike’s gears are caked in mud - a sign of a day well spent. Can’t wait to clean her up and get back out there! Just got back from an epic ride! The trails were muddy, but that didn’t stop me. My bike’s gears are caked in mud - a sign of a day well spent. Can’t wait to clean her up and get back out there! Journey’s Pause: Embracing the Sea Description There I was, taking a breather from my cycling journey. The sea was my companion, its waves rhythmically crashing onto the shore. My bike, laden with bags, stood as a testament to the miles traveled and the adventures experienced. The clear sky overhead seemed to echo my sense of freedom. This wasn’t just a ride, it was a story unfolding with each pedal stroke. There I was, taking a breather from my cycling journey. The sea was my companion, its waves rhythmically crashing onto the shore. My bike, laden with bags, stood as a testament to the miles traveled and the adventures experienced.]]></summary></entry><entry><title type="html">Rock/Sports/Climbing</title><link href="http://localhost:3000/2023/08/01/climbing/" rel="alternate" type="text/html" title="Rock/Sports/Climbing" /><published>2023-08-01T00:00:00+00:00</published><updated>2023-08-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/08/01/climbing</id><content type="html" xml:base="http://localhost:3000/2023/08/01/climbing/"><![CDATA[<div class="container p-0">
   <div class="row p-0">
     
     
@@ -493,14 +642,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         
         <div class="embed-responsive embed-responsive-16by9">
           <video class="embed-responsive-item w-100" controls="">
-            <source src="/assets/videos/Stone-Climb-August.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/watch?v=QGNPayhPiL8" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         
         <span class="mobile__size">
           <div class="card-body">
-            <h5 class="card-title fw-lighter">Scaling the Heights of Mountain</h5>
+            <h5 class="card-title fw-lighter">Rainy Ascent &amp; Chilly Peaks</h5>
             <div class="accordion" id="accordionExample3">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading3">
@@ -511,8 +660,8 @@ In the end, it's about creating a website that adapts to different devices (resp
                 <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
-                      <span class="desktop__size">I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget.</span>
-                      <span class="mobile__size">I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping.</span>
+                      <span class="desktop__size">We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. </span>
+                      <span class="mobile__size">We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. Following that, we engaged in a variety of activities, including climbing stones at the summit.</span>
                     </p>
                   </div>
                 </div>
@@ -644,7 +793,7 @@ In the end, it's about creating a website that adapts to different devices (resp
     </div>
     
   </div>
-</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embracing the Wilderness: A Journey Unforgotten Description Today, I found myself lost in the best way possible. Along with my fellow adventurers, we ventured into the heart of an untouched forest, our backpacks filled with excitement and curiosity. The trail, a narrow path less trodden, led us through a maze of greenery, each turn revealing a new facet of nature’s grandeur. The air was thick with the scent of damp earth and blooming flora, a testament to the recent rain. Today, I found myself lost in the best way possible. Along with my fellow adventurers, we ventured into the heart of an untouched forest, our backpacks filled with excitement and curiosity. My Rock Climbing Adventure Description Surrounded by our gear, my companion and I prepared ourselves for the ascent. The dirt beneath us, the vegetation around, and the massive rock face in front of us - it was a dance between us and nature. This experience was more than just a physical challenge; it was a testament to human will and perseverance. Truly an adventure to remember! 🧗‍♂️ Surrounded by our gear, my companion and I prepared ourselves for the ascent. The dirt beneath us, the vegetation around, and the massive rock face in front of us - it was a dance between us and nature. Your browser does not support the video tag. Scaling the Heights of Mountain Description I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Check out this video of me reaching the top of one of the cliffs. It was a rewarding experience that I will never forget. I had an amazing time stone climbing last August 2023. The views were breathtaking, the rocks were challenging, and the adrenaline was pumping. Embracing the Misty Peaks Description Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe. The misty atmosphere adds a layer of mystery and excitement to your adventure, making this a truly memorable experience. This image beautifully encapsulates the essence of your journey - a testament to human resilience and the joy of exploration. Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe. Rush and tranquility Description The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent. The experience is a blend of adrenaline rush and tranquility, as I scale nature’s monolith, with the rustling leaves and the cool touch of the stone as my companions. This moment encapsulates the thrill of adventure and the beauty of nature, intertwined in a single frame. The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent. Scaling New Heights Description In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit. It’s a dance between human spirit and nature’s grandeur. The moment encapsulates the thrill of adventure, the joy of achievement, and the satisfaction of pushing personal boundaries. In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit. Scaling the Heights of Adventure Description The view from the top was breathtaking and rewarding. I felt a sense of accomplishment and gratitude for being able to enjoy the beauty of nature. Stone climbing is not for the faint of heart, but it is definitely worth trying at least once in your life. You never know what you might discover about yourself and the world around you. It was an exhilarating and challenging experience that tested my physical and mental limits.]]></summary></entry><entry><title type="html">Data Architecture for System Map Control</title><link href="http://localhost:3000/2023/05/07/blog/" rel="alternate" type="text/html" title="Data Architecture for System Map Control" /><published>2023-05-07T00:00:00+00:00</published><updated>2023-05-07T00:00:00+00:00</updated><id>http://localhost:3000/2023/05/07/blog</id><content type="html" xml:base="http://localhost:3000/2023/05/07/blog/"><![CDATA[<p><img src="/assets/images/2023.05.07.blog.cover.png" class="rounded img-fluid" /></p>
+</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embracing the Wilderness: A Journey Unforgotten Description Today, I found myself lost in the best way possible. Along with my fellow adventurers, we ventured into the heart of an untouched forest, our backpacks filled with excitement and curiosity. The trail, a narrow path less trodden, led us through a maze of greenery, each turn revealing a new facet of nature’s grandeur. The air was thick with the scent of damp earth and blooming flora, a testament to the recent rain. Today, I found myself lost in the best way possible. Along with my fellow adventurers, we ventured into the heart of an untouched forest, our backpacks filled with excitement and curiosity. My Rock Climbing Adventure Description Surrounded by our gear, my companion and I prepared ourselves for the ascent. The dirt beneath us, the vegetation around, and the massive rock face in front of us - it was a dance between us and nature. This experience was more than just a physical challenge; it was a testament to human will and perseverance. Truly an adventure to remember! 🧗‍♂️ Surrounded by our gear, my companion and I prepared ourselves for the ascent. The dirt beneath us, the vegetation around, and the massive rock face in front of us - it was a dance between us and nature. Your browser does not support the video tag. Rainy Ascent &amp; Chilly Peaks Description We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. We reached the summit of Mt. Suso—I'm not entirely sure if I spelled it right. It was raining during our ascent, making it quite chilly at the peak. Luckily, our tour guide assisted us by providing hot soup once we descended. Following that, we engaged in a variety of activities, including climbing stones at the summit. Embracing the Misty Peaks Description Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe. The misty atmosphere adds a layer of mystery and excitement to your adventure, making this a truly memorable experience. This image beautifully encapsulates the essence of your journey - a testament to human resilience and the joy of exploration. Dressed in casual hiking attire, you all stand triumphantly on the grassy terrain, surrounded by the ethereal beauty of nature. The camaraderie among you is palpable, as you share this moment of victory and awe. Rush and tranquility Description The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent. The experience is a blend of adrenaline rush and tranquility, as I scale nature’s monolith, with the rustling leaves and the cool touch of the stone as my companions. This moment encapsulates the thrill of adventure and the beauty of nature, intertwined in a single frame. The texture of the rock offers natural handholds and footholds, making the climb challenging yet achievable. A rope to my right ensures my safety during this adventurous ascent. Scaling New Heights Description In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit. It’s a dance between human spirit and nature’s grandeur. The moment encapsulates the thrill of adventure, the joy of achievement, and the satisfaction of pushing personal boundaries. In this captivating image, you are seen defying gravity, conquering the rugged cliff with sheer determination and skill. With safety gear in place and the vast sky as the backdrop, every grip and foothold marks a step closer to the summit. Scaling the Heights of Adventure Description The view from the top was breathtaking and rewarding. I felt a sense of accomplishment and gratitude for being able to enjoy the beauty of nature. Stone climbing is not for the faint of heart, but it is definitely worth trying at least once in your life. You never know what you might discover about yourself and the world around you. It was an exhilarating and challenging experience that tested my physical and mental limits.]]></summary></entry><entry><title type="html">Data Architecture for System Map Control</title><link href="http://localhost:3000/2023/05/07/blog/" rel="alternate" type="text/html" title="Data Architecture for System Map Control" /><published>2023-05-07T00:00:00+00:00</published><updated>2023-05-07T00:00:00+00:00</updated><id>http://localhost:3000/2023/05/07/blog</id><content type="html" xml:base="http://localhost:3000/2023/05/07/blog/"><![CDATA[<p><img src="/assets/images/2023.05.07.blog.cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>Data Architecture for System Map Control</h2>
@@ -763,14 +912,14 @@ In the end, it's about creating a website that adapts to different devices (resp
         
         <div class="embed-responsive embed-responsive-16by9">
           <video class="embed-responsive-item w-100" controls="">
-            <source src="/assets/videos/Mt. Pinginan.mp4" type="video/mp4" />
+            <source src="https://www.youtube.com/watch?v=VrXyVZYgQwQ" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
         
         <span class="mobile__size">
           <div class="card-body">
-            <h5 class="card-title fw-lighter">Embracing the Horizon</h5>
+            <h5 class="card-title fw-lighter">Moments and Future Hike Invitations</h5>
             <div class="accordion" id="accordionExample1">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading1">
@@ -781,8 +930,8 @@ In the end, it's about creating a website that adapts to different devices (resp
                 <div id="collapse1" class="accordion-collapse collapse block" aria-labelledby="heading1" data-bs-parent="#accordionExample1">
                   <div class="accordion-body">
                     <p class="card-text fw-lighter">
-                      <span class="desktop__size">As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur.</span>
-                      <span class="mobile__size">As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature.</span>
+                      <span class="desktop__size">This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along.</span>
+                      <span class="mobile__size">This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along.</span>
                     </p>
                   </div>
                 </div>
@@ -914,7 +1063,7 @@ In the end, it's about creating a website that adapts to different devices (resp
     </div>
     
   </div>
-</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Your browser does not support the video tag. Embracing the Horizon Description As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur. As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. The Changing Seasons Description Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. It’s like nature is painting a masterpiece right before our eyes. Let’s take a moment to appreciate this beautiful transition. It’s not every day we get to witness such a spectacle. Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. A Moment of Rest Amidst Nature Description Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe. The journey has been long, but look at the view – it’s all worth it! Let’s enjoy our snacks and recharge before we continue our adventure. Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe. Journey Through the Green Wilderness Description Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature. Can you hear that? The rustling leaves and distant calls of wildlife. It’s as if the forest is sharing its secrets with us. Let’s keep going and see what other wonders this trail has in store for us. Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature. Embracing the Horizon Description Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment. It feels like we can touch the sky! Let’s take a moment to appreciate this, to breathe in the fresh air, and to realize how far we’ve come. This is what adventure feels like, isn’t it? Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment.]]></summary></entry><entry><title type="html">Using Distributed algorithms to System architecture</title><link href="http://localhost:3000/2021/09/11/blog/" rel="alternate" type="text/html" title="Using Distributed algorithms to System architecture" /><published>2021-09-11T00:00:00+00:00</published><updated>2021-09-11T00:00:00+00:00</updated><id>http://localhost:3000/2021/09/11/blog</id><content type="html" xml:base="http://localhost:3000/2021/09/11/blog/"><![CDATA[<p><img src="/assets/images/2021.9.11.blog.cover.png" class="rounded img-fluid" /></p>
+</div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Your browser does not support the video tag. Moments and Future Hike Invitations Description This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along. This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along. The Changing Seasons Description Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. It’s like nature is painting a masterpiece right before our eyes. Let’s take a moment to appreciate this beautiful transition. It’s not every day we get to witness such a spectacle. Look at that hillside, isn’t it mesmerizing? You can see the dance between two seasons. The lush greenery is giving way to the rustic charm of autumn. A Moment of Rest Amidst Nature Description Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe. The journey has been long, but look at the view – it’s all worth it! Let’s enjoy our snacks and recharge before we continue our adventure. Hey, isn’t this just the perfect spot to take a break? Surrounded by the whispering pines and the soft rustle of leaves, we find solace and a moment to breathe. Journey Through the Green Wilderness Description Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature. Can you hear that? The rustling leaves and distant calls of wildlife. It’s as if the forest is sharing its secrets with us. Let’s keep going and see what other wonders this trail has in store for us. Look at us, guys! We’re surrounded by an abundance of greenery as we tread this hidden trail. The air is so fresh, and every step we take brings us deeper into the serene embrace of nature. Embracing the Horizon Description Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment. It feels like we can touch the sky! Let’s take a moment to appreciate this, to breathe in the fresh air, and to realize how far we’ve come. This is what adventure feels like, isn’t it? Wow, look at this, guys! We’ve made it to the top, and just take in that view – endless rolling green hills under a sky so vast, it’s breathtaking. Every step of our climb was worth this moment.]]></summary></entry><entry><title type="html">Using Distributed algorithms to System architecture</title><link href="http://localhost:3000/2021/09/11/blog/" rel="alternate" type="text/html" title="Using Distributed algorithms to System architecture" /><published>2021-09-11T00:00:00+00:00</published><updated>2021-09-11T00:00:00+00:00</updated><id>http://localhost:3000/2021/09/11/blog</id><content type="html" xml:base="http://localhost:3000/2021/09/11/blog/"><![CDATA[<p><img src="/assets/images/2021.9.11.blog.cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>Using Distributed algorithms to System architecture</h2>
@@ -1446,142 +1595,4 @@ In the end, it's about creating a website that adapts to different devices (resp
 <br />
 <br />
 <br />
-<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).]]></summary></entry><entry><title type="html">Software Defects Management for Mistake</title><link href="http://localhost:3000/2021/08/25/blog/" rel="alternate" type="text/html" title="Software Defects Management for Mistake" /><published>2021-08-25T00:00:00+00:00</published><updated>2021-08-25T00:00:00+00:00</updated><id>http://localhost:3000/2021/08/25/blog</id><content type="html" xml:base="http://localhost:3000/2021/08/25/blog/"><![CDATA[<p><img src="/assets/images/2021.8.25.blog.cover.png" class="rounded img-fluid" alt="cover" /></p>
-
-<div class="desktop__size" style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
-    <h2>Software Defects Management for Mistake</h2>
-</div>
-<div class="mobile__size" style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
-    <h2>Software Defects Management for Mistake</h2>
-</div>
-<hr />
-
-<div class="desktop__size">
-    <div class="d-flex align-items-center">
-    <div class="align-self-center">
-        <small class="text-muted">
-        <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
-        </small>
-    </div>
-      &nbsp;
-      <div class="align-self-center">
-        By Edison Pebojot
-      </div>
-      &nbsp;
-      <div class="align-self-center">
-        25 August 2021
-      </div>
-    </div>
-    <p></p>
-    <div class="d-flex align-items-center">
-      <div class="align-self-center">
-        <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a>
-        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-      &nbsp;
-      <div class="align-self-center">
-        <a class="github-button" href="https://github.com/pebojote" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" aria-label="Follow @pebojote on GitHub">Follow</a>
-      </div>
-    </div>
- </div>
-
-<div class="mobile__size">
-    <div class="d-flex align-items-center">
-        <div class="align-self-center">
-            <small class="text-muted">
-                <img src="/assets/images/2.webp" width="30" height="30" class="img-fluid rounded-circle" alt="Edison Pebojot" />
-            </small>
-        </div>
-        &nbsp;
-        <div class="align-self-center">
-            By Edison Pebojot
-        </div>
-        &nbsp;
-        <div class="align-self-center flex-grow-1">
-            08/25/2021
-        </div>
-    </div>
-    <p></p>
-    <div class="d-flex align-items-center justify-content-start">
-        <div class="align-self-center">
-            <a href="https://twitter.com/pebojote?ref_src=twsrc%5Etfw" class="twitter-follow-button align-self-center" data-show-screen-name="false" data-show-count="false">Follow @pebojote</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        &nbsp;
-        <div class="align-self-center">
-            <a class="github-button align-self-center" href="https://github.com/pebojote" aria-label="Follow @pebojote on GitHub">Follow</a>
-        </div>
-    </div>
-</div>
-<p><br /></p>
-<div style="text-align: justify;word-break: keep-all;font-family:sans-serif;">
-    <p>
-        So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry. As a result, one of the most common topics discussed by experienced programmers in the software industry is technical debt. So, when we talk about technical debt, we're actually talking about software defects. Because the term bug can refer to insects, some people prefer to refer to it as a defect, because a defect is the result of a mistake. This is called Mistake metamorphism.
-    </p>
-    <p>
-        In mistake metamorphism, when we change some parts of the source code, we may need to change other parts of the source code as well in order for the software to function properly. Unfortunately, some of us would rather not change certain other parts (or components) for various reasons (maybe because it was hard to change). This is a mistake. And this mistake continues to flow through the pipeline (or Kanban board). That mistake slowly transforms into something dark as it travels through the pipeline. It's so dark that it's now considered a defect in the pipeline's final stage (deployment). And that defect can result in software that isn't up to par. It means that some of it is functional, but not all of it is. For example, clicking the button is working, but clicking the anchor is not.
-    </p>
-    <p>
-        When some parts of a programme work before but not after a change, this is referred to as software regression (defect). Some defects, however, are unintentional. For example, just because you change some parts of the source code and leave the rest alone to make the software work perfectly does not mean there isn't a defect. It could be due to incompatibilities that cause the software to perform poorly. Some parts (components) of your software, for example, may not work in the runtime environment. This is due to the execution model's inability to comprehend your source code. It's possible that the execution model from that runtime entails using "if statement" with parenthesis instead.
-    </p>
-    <p>
-        This type of incompatibility is called Software incompatibility. It's also possible that the runtime environment has been updated and no longer supports the programming language features you're using (or vice versa). And it's here that forward and backward compatibility is established. Forward compatibility is used when your software needs to work flawlessly with a new version of the runtime environment. Backward compatibility is available for older versions of the runtime environment. Because your system is still young and mistakes are common, you're more likely to encounter intentional defects in greenfield projects.
-    </p>
-    <p>
-        Defect triage, on the other hand, can be used to manage defects. Some tools, such as Github or Trello, refer to this as bug triage, but this is incorrect. If you rely on these tools excessively, you may be justified in using the term bug triage during working hours, and you may disagree with me. Using the word defect, on the other hand, is transparent because it indicates that you made a mistake, which you should not hide from the public.
-    </p>
-    <p>
-        In any case, the most common method of defect triage is through the use of a tool and a casual meeting. To avoid infobesity, the tool includes a defect triage board (board), four columns (open, high priority, low priority, closed), and a WiP limit for each column. The developer who made the mistake in the version control system should speak with the tester during the casual meeting. Some prefer to speak with stakeholders and product owners because they are more familiar with the scope of the technical debt's impact and may be able to offer useful solutions. Some people prefer to use an issue board instead of talking to stakeholders and product owners. An issue board is preferable because it allows more people to discuss the problem than just the developer and tester.
-    </p>
-    <p>
-        Rather than adding a defect to the issue board, some developers prefer to avoid mistakes right away. However, some errors are unintentional, such as software incompatibility. But mistakes can also be reduced to a bare minimum. As a result, we must prioritise and estimate the issue. You need to know the issue's value and size in order to prioritise and estimate it. The output of resolving the problem must be useful to the user, and the impact should be minimal. It should be kept to a minimum because a large impact means a large mistake. And, no matter how significant the impact, most users will not value what you fix if the issue is not valuable. This can lead to a waste of time.
-    </p>
-    <p>
-        In addition to size and value, people use velocity (for scrum) and time (for kanban). In fact, in software development, velocity and time are critical because they are used to communicate with stakeholders. The standard deviation formula is used to calculate the mean of the total number of story points in four sprints over the course of a month. However, because the velocity has no units like tasks per minute, there are trust issues between the team and the stakeholders. As a result, some people attempt to convert velocity to time. For instance, 30 points equals 6 days, 60 points equals 12 days, and so on. T-shirt sizing and the cone of uncertainty are also used by some people to communicate with stakeholders, but this is beyond the scope of this blog.
-    </p>
-    <p>
-        As a result, some people prefer to use time (in kanban). You use time in kanban to communicate with stakeholders about how long they should expect their product to arrive. Lead time, cycle time, and actionable agile metrics (ACM) are used to calculate time. I won't go into detail because it's much better if you investigate it for yourself to gain a better understanding. All of this talk about velocity and time, on the other hand, is a way of communicating to stakeholders how long it will take to fix the defect. You'll need a way to explain to stakeholders how long they should wait for the fix, especially if the defect is valuable.
-    </p>
-    <h3>Summary</h3>
-    <hr />
-    <p>
-        Technical debt is the most common type of debt in the software industry. Technical debt refers to software defects, which can be caused by mistake and incompatibilities. Some people prefer to refer to it as a defect, because a defect is the result of a mistake. In mistake metamorphism, when we change some parts of the source code, we may need to change other parts too. And this mistake slowly transforms into something dark as it travels through the pipeline.
-    </p>
-    <p>
-        It's so dark that it's now considered a defect in the pipeline's final stage (deployment) And that defect can result in software that isn't up to par. Some tools, such as Github or Trello, refer to bug triage as bug triage, but this is incorrect. Using the word defect, on the other hand, is transparent because it indicates that you made a mistake, which you should not hide from the public. If you rely on these tools excessively, you may be justified in using the term bug trage during working hours, and you may disagree with me.
-    </p>
-    <p>
-        The most common method of defect triage is through the use of a tool and a casual meeting. Some people prefer to use an issue board instead of talking to stakeholders and product owners. The output of resolving the problem must be useful to the user, and the impact should be minimal. This is because it should be kept to a minimum because a large impact means a large mistake. Some people prefer to use time (in kanban) to communicate with stakeholders about how long they should expect their product to arrive.
-    </p>
-    <p>
-        Lead time, cycle time, and actionable agile metrics (ACM) are used to calculate time. Time is a way of communicating to stakeholders how long it will take to fix a defect, especially if the defect is critical. It's much better if you investigate it for yourself to gain a better understanding.
-    </p>
-  </div>
-<hr />
-
-<div class="desktop__size">
-  <div class="d-flex align-items-center justify-content-start">
-    <div class="align-self-center">
-      <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2022/08/25/blog/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-    </div>
-    <div class="align-self-center">
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a>
-      <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-  </div>
-</div>
-
-<div class="mobile__size">
-    <div class="d-flex align-items-center justify-content-start">
-        <div class="align-self-center">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button align-self-center" data-show-screen-name="false" data-show-count="false" data-via="pebojote">Tweet</a><script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <div class="align-self-center">
-            <div class="fb-share-button align-self-center" style="vertical-align: super;top:-2px" data-href="https://www.pebojot.com/2022/08/25/blog/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-        </div>
-    </div>
-</div>
-<p><br />
-<br />
-<br />
-<br />
-<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[So, in my previous blog, I discussed debt. Other types of debt exist, such as architecture debt, infrastructure debt, and so on, but I'd like to focus on technical debt today because it is the most common type of debt in the software industry.]]></summary></entry></feed>
+<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Defects are common in software development, as we all know. When you come across it, you can be sure that stakeholders are unhappy with it, and they will ask you how long they should wait for a fix (or changes).]]></summary></entry></feed>

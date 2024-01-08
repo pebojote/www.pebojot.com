@@ -53,13 +53,13 @@
 #   date: "2022-05-01"  # Corrected date format
 #   page_url: "https://www.pebojot.com/2022/05/01/hiking/"
 
-- src: "/assets/videos/Mt. Pinginan.mp4"
-  thumbnail: "/assets/videos/Mt. Pinginan.mp4"
+- src: "https://www.youtube.com/watch?v=VrXyVZYgQwQ"
+  thumbnail: "https://www.youtube.com/watch?v=VrXyVZYgQwQ"
   alt: "Video 1"
   latest: "true"
   type: "video"
-  title: "Embracing the Horizon"
-  mobile_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature."
-  desktop_description: "As I stand on the peak of this verdant mountain, the world unfolds before me in a panorama of breathtaking beauty. Dressed in khaki, with my trusty orange and black backpack, I am a solitary figure against the vastness of nature. In my hands, I hold an object, a silent testament to my journey. Below me, the landscape is a tapestry of lush green, a testament to nature’s grandeur."
+  title: "Moments and Future Hike Invitations"
+  mobile_description: "This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along."
+  desktop_description: "This video was created in late 2022. I typically don't feel at ease sharing my videos with everyone unless I'm acquainted with you, I suppose. Nonetheless, I kept the video brief—a compilation of snippets, not featuring every recording but showcasing the highlights of our activities from the past year. Eagerly looking forward to embarking on new hikes. If you're interested in joining, feel free to come along."
   date: "2022-05-01"  # Corrected date format
   page_url: "https://www.pebojot.com/2022/05/01/hiking/"
