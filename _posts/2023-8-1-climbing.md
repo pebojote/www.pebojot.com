@@ -16,12 +16,13 @@ type: pv
     <div class="col-md-4 mt-3 col-lg-3 p-0">
       <div class="card">
         {% if p_v_climbing.type == "video" %}
-        <div class="embed-responsive embed-responsive-16by9">
+        <!-- <div class="embed-responsive embed-responsive-16by9">
           <video class="embed-responsive-item w-100" controls>
             <source src="{{ p_v_climbing.src }}" type="video/mp4">
             Your browser does not support the video tag.
           </video>
-        </div>
+        </div> -->
+        {% youtube p_v_climbing.src %}
         {% else %}
         <img src="{{ p_v_climbing.src }}" class="card-img-top" alt="{{ p_v_climbing.alt }}">
         {% endif %}
