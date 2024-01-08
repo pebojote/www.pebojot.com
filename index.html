@@ -112,7 +112,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ post.short_description }}
                                         </p>
                                     </span>
@@ -152,7 +152,7 @@ title: Home
                 {% assign p_v_hiking_data = site.data.p_v_hiking_gallery %}
                 {% for p_v_hiking in p_v_hiking_data %}
                 {% if p_v_hiking.latest=="true" %}
-                <a href="{{ p_v_hiking.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                <div class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -178,7 +178,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ p_v_hiking.mobile_description }}
                                         </p>
                                     </span>
@@ -191,7 +191,7 @@ title: Home
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a href="{{p_v_hiking.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
@@ -202,7 +202,7 @@ title: Home
                 {% assign p_v_climbing_data = site.data.p_v_climbing_gallery %}
                 {% for p_v_climbing in p_v_climbing_data %}
                 {% if p_v_climbing.latest=="true" %}
-                <a href="{{ p_v_climbing.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                <div class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -228,7 +228,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ p_v_climbing.mobile_description }}
                                         </p>
                                     </span>
@@ -241,7 +241,7 @@ title: Home
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a href="{{p_v_climbing.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
@@ -252,7 +252,7 @@ title: Home
                 {% assign p_v_biking_data = site.data.p_v_biking_gallery %}
                 {% for p_v_biking in p_v_biking_data %}
                 {% if p_v_biking.latest=="true" %}
-                <a href="{{ p_v_biking.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                <div class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -278,7 +278,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ p_v_biking.mobile_description }}
                                         </p>
                                     </span>
@@ -291,7 +291,7 @@ title: Home
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a href="{{p_v_biking.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
@@ -317,7 +317,7 @@ title: Home
                 {% assign software_engineering_playlist_podcast_data = site.data.software_engineering_playlist_podcast %}
                 {% for software_engineering_playlist_podcast in software_engineering_playlist_podcast_data %}
                 {% if software_engineering_playlist_podcast.latest=="true" %}
-                <a href="{{ software_engineering_playlist_podcast.page_url }}" class="list-group-item list-group-item-action border-0 p-0"
+                <div class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     <div class="card mb-3 rounded">
                         <div class="row g-0 d-flex align-items-center">
@@ -343,7 +343,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ software_engineering_playlist_podcast.mobile_description }}
                                         </p>
                                     </span>
@@ -356,7 +356,7 @@ title: Home
                             </div>
                         </div>
                     </div>
-                </a>
+                </div>
                 <a href="{{software_engineering_playlist_podcast.page_url}}" class="list-group-item list-group-item-action border-0 p-0"
                     style="background-color: transparent">
                     See More
@@ -397,7 +397,7 @@ title: Home
                                         </p>
                                     </span>
                                     <span class="mobile__size ">
-                                        <p class="card-text lead" style="text-align: justify;word-break: break-all;">
+                                        <p class="card-text lead" style="text-align: justify;">
                                             {{ post.short_description }}
                                         </p>
                                     </span>

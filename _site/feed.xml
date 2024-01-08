@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2024-01-08T01:32:58+00:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Future of Web Design Powered by AI</title><link href="http://localhost:3000/2023/12/30/blog/" rel="alternate" type="text/html" title="The Future of Web Design Powered by AI" /><published>2023-12-30T00:00:00+00:00</published><updated>2023-12-30T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/30/blog</id><content type="html" xml:base="http://localhost:3000/2023/12/30/blog/"><![CDATA[<p><img src="/assets/images/2023-12-30-blog-cover.png" class="rounded img-fluid" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:3000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:3000/" rel="alternate" type="text/html" /><updated>2024-01-08T01:51:53+00:00</updated><id>http://localhost:3000/feed.xml</id><entry><title type="html">The Future of Web Design Powered by AI</title><link href="http://localhost:3000/2023/12/30/blog/" rel="alternate" type="text/html" title="The Future of Web Design Powered by AI" /><published>2023-12-30T00:00:00+00:00</published><updated>2023-12-30T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/30/blog</id><content type="html" xml:base="http://localhost:3000/2023/12/30/blog/"><![CDATA[<p><img src="/assets/images/2023-12-30-blog-cover.png" class="rounded img-fluid" /></p>
 
 <div class="desktop__size " style="text-align: center;font-family:sans-serif;word-spacing: 0px;">
     <h2>The Future of Web Design Powered by AI</h2>
@@ -233,120 +233,7 @@ In the end, it's about creating a website that adapts to different devices (resp
 <br />
 <br />
 <br />
-<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.]]></summary></entry><entry><title type="html">Software/Engineering</title><link href="http://localhost:3000/2023/12/01/podcast/" rel="alternate" type="text/html" title="Software/Engineering" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/podcast</id><content type="html" xml:base="http://localhost:3000/2023/12/01/podcast/"><![CDATA[<div class="container p-0">
-    <div class="row p-0">
-      
-      
-      <div class="col-md-4 mt-3 col-lg-3 p-0">
-        <div class="card">
-          
-          <!-- <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item w-100" controls>
-              <source src="https://www.youtube.com/watch?v=ZfoB6NfLqHs" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div> -->
-            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/ZfoB6NfLqHs" frameborder="0" allowfullscreen=""></iframe></div>
-          
-          <span class="mobile__size">
-            <div class="card-body">
-              <h5 class="card-title fw-lighter">Episode 3: The Software Industry's Project Management.</h5>
-              <div class="accordion" id="accordionExample1">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading1">
-                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                      Description
-                    </button>
-                  </h2>
-                  <div id="collapse1" class="accordion-collapse collapse block" aria-labelledby="heading1" data-bs-parent="#accordionExample1">
-                    <div class="accordion-body">
-                      <p class="card-text fw-lighter">
-                        <span class="desktop__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut.</span>
-                        <span class="mobile__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it.</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </span>
-        </div>
-      </div>
-      
-      <div class="col-md-4 mt-3 col-lg-3 p-0">
-        <div class="card">
-          
-          <!-- <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item w-100" controls>
-              <source src="https://www.youtube.com/watch?v=Tg5PpvTd5lo" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div> -->
-            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/Tg5PpvTd5lo" frameborder="0" allowfullscreen=""></iframe></div>
-          
-          <span class="mobile__size">
-            <div class="card-body">
-              <h5 class="card-title fw-lighter">Episode 2: The Basics of Software Requirement Gathering</h5>
-              <div class="accordion" id="accordionExample2">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading2">
-                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                      Description
-                    </button>
-                  </h2>
-                  <div id="collapse2" class="accordion-collapse collapse block" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
-                    <div class="accordion-body">
-                      <p class="card-text fw-lighter">
-                        <span class="desktop__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.</span>
-                        <span class="mobile__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time.</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </span>
-        </div>
-      </div>
-      
-      <div class="col-md-4 mt-3 col-lg-3 p-0">
-        <div class="card">
-          
-          <!-- <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item w-100" controls>
-              <source src="https://www.youtube.com/watch?v=MndotKJNlF4" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
-          </div> -->
-            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/MndotKJNlF4" frameborder="0" allowfullscreen=""></iframe></div>
-          
-          <span class="mobile__size">
-            <div class="card-body">
-              <h5 class="card-title fw-lighter">Episode 1: Navigating Ethical Waters in Software Development</h5>
-              <div class="accordion" id="accordionExample3">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="heading3">
-                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                      Description
-                    </button>
-                  </h2>
-                  <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
-                    <div class="accordion-body">
-                      <p class="card-text fw-lighter">
-                        <span class="desktop__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators.</span>
-                        <span class="mobile__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </span>
-        </div>
-      </div>
-      
-    </div>
-  </div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Episode 3: The Software Industry's Project Management. Description Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut. Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. Episode 2: The Basics of Software Requirement Gathering Description Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders. Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. Episode 1: Navigating Ethical Waters in Software Development Description In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators. In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.]]></summary></entry><entry><title type="html">Bikepacking/Trek/Trail</title><link href="http://localhost:3000/2023/12/01/biking/" rel="alternate" type="text/html" title="Bikepacking/Trek/Trail" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/biking</id><content type="html" xml:base="http://localhost:3000/2023/12/01/biking/"><![CDATA[<div class="container p-0">
+<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Embark on the journey of crafting a user-centric website with a holistic approach to web design. From foundational elements like sitemaps and wireframes to the nuances of psychological insights, this exploration covers essential principles and methodologies.]]></summary></entry><entry><title type="html">Bikepacking/Trek/Trail</title><link href="http://localhost:3000/2023/12/01/biking/" rel="alternate" type="text/html" title="Bikepacking/Trek/Trail" /><published>2023-12-01T00:00:00+00:00</published><updated>2023-12-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/12/01/biking</id><content type="html" xml:base="http://localhost:3000/2023/12/01/biking/"><![CDATA[<div class="container p-0">
   <div class="row p-0">
     
     
@@ -903,7 +790,120 @@ In the end, it's about creating a website that adapts to different devices (resp
 <br />
 <br />
 <br />
-<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[In my last article, I talked about distributed algorithms, but I like to talk about something relevant to us. Something that happened on Twitter recently and how it affected its users. Is it positive or negative? That depends on the scale of the emergency for the business.]]></summary></entry><entry><title type="html">Camping/Backpacking/Hiking</title><link href="http://localhost:3000/2022/05/01/hiking/" rel="alternate" type="text/html" title="Camping/Backpacking/Hiking" /><published>2022-05-01T00:00:00+00:00</published><updated>2022-05-01T00:00:00+00:00</updated><id>http://localhost:3000/2022/05/01/hiking</id><content type="html" xml:base="http://localhost:3000/2022/05/01/hiking/"><![CDATA[<div class="container p-0">
+<br /></p>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[In my last article, I talked about distributed algorithms, but I like to talk about something relevant to us. Something that happened on Twitter recently and how it affected its users. Is it positive or negative? That depends on the scale of the emergency for the business.]]></summary></entry><entry><title type="html">Software/Engineering</title><link href="http://localhost:3000/2023/01/01/podcast/" rel="alternate" type="text/html" title="Software/Engineering" /><published>2023-01-01T00:00:00+00:00</published><updated>2023-01-01T00:00:00+00:00</updated><id>http://localhost:3000/2023/01/01/podcast</id><content type="html" xml:base="http://localhost:3000/2023/01/01/podcast/"><![CDATA[<div class="container p-0">
+    <div class="row p-0">
+      
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=ZfoB6NfLqHs" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/ZfoB6NfLqHs" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 3: The Software Industry's Project Management.</h5>
+              <div class="accordion" id="accordionExample1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading1">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse block" aria-labelledby="heading1" data-bs-parent="#accordionExample1">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut.</span>
+                        <span class="mobile__size">Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=Tg5PpvTd5lo" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/Tg5PpvTd5lo" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 2: The Basics of Software Requirement Gathering</h5>
+              <div class="accordion" id="accordionExample2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading2">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse2" class="accordion-collapse collapse block" aria-labelledby="heading2" data-bs-parent="#accordionExample2">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders.</span>
+                        <span class="mobile__size">Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-3 col-lg-3 p-0">
+        <div class="card">
+          
+          <!-- <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item w-100" controls>
+              <source src="https://www.youtube.com/watch?v=MndotKJNlF4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div> -->
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/MndotKJNlF4" frameborder="0" allowfullscreen=""></iframe></div>
+          
+          <span class="mobile__size">
+            <div class="card-body">
+              <h5 class="card-title fw-lighter">Episode 1: Navigating Ethical Waters in Software Development</h5>
+              <div class="accordion" id="accordionExample3">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading3">
+                    <button class="accordion-button block" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      Description
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse block" aria-labelledby="heading3" data-bs-parent="#accordionExample3">
+                    <div class="accordion-body">
+                      <p class="card-text fw-lighter">
+                        <span class="desktop__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators.</span>
+                        <span class="mobile__size">In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      
+    </div>
+  </div>]]></content><author><name>Pebojot</name></author><summary type="html"><![CDATA[Episode 3: The Software Industry's Project Management. Description Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut. Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. Episode 2: The Basics of Software Requirement Gathering Description Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders. Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. Episode 1: Navigating Ethical Waters in Software Development Description In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators. In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains.]]></summary></entry><entry><title type="html">Camping/Backpacking/Hiking</title><link href="http://localhost:3000/2022/05/01/hiking/" rel="alternate" type="text/html" title="Camping/Backpacking/Hiking" /><published>2022-05-01T00:00:00+00:00</published><updated>2022-05-01T00:00:00+00:00</updated><id>http://localhost:3000/2022/05/01/hiking</id><content type="html" xml:base="http://localhost:3000/2022/05/01/hiking/"><![CDATA[<div class="container p-0">
   <div class="row p-0">
     
     
