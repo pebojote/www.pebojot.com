@@ -3,7 +3,7 @@ layout: post
 title: Software/Engineering
 author: Pebojot
 date: 2023-1-1
-image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2115328&authkey=%21AAVehIIO7A-vfWs
+image_url: https://onedrive.live.com/embed?resid=655EB2CF553A75A2%2115791&authkey=%21AL3QIM45PIJZIiA
 latest: false
 project_url: 2023/1/1/podcast/
 type: podcast
