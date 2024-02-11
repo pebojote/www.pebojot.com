@@ -10,7 +10,7 @@
   link: /podcast/
 - name: Research
   link: /research/
-- name: Photograph & Video
-  link: /pv/
-- name: About
-  link: /about/
+# - name: Photograph & Video
+  # link: /pv/
+# - name: About
+  # link: /about/
