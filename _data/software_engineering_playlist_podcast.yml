@@ -7,7 +7,7 @@
   mobile_description: "In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains."
   desktop_description: "In the world of software development, ethical considerations often take a back seat in discussions. However, they play a crucial role in various technical domains. Let's delve into four ethical challenges: Privacy, now enforced by laws due to past mistakes; Cognitive workload, where our focus on certain aspects may harm users; Energy conservation, not just a fantasy but a significant concern; and Confidence, crucial for both ourselves and our collaborators."
   date: "2023-01-01"  # Corrected date format
-  page_url: "https://www.pebojot.com/2023/01/01/podcast/"
+  page_url: "/2023/01/01/podcast/"
 
 - src: "https://www.youtube.com/watch?v=Tg5PpvTd5lo"
   thumbnail: "https://www.youtube.com/watch?v=Tg5PpvTd5lo"
@@ -18,7 +18,7 @@
   mobile_description: "Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time."
   desktop_description: "Many people expect senior developers to attend meetings with stakeholders to figure out what they require. The stakeholder needs were written on a whiteboard at the time. However, in the twenty-first century, it is no longer done by a single person. Your stakeholder can tell you a problem in a workshop, which will help you figure out what your challenges are. This is done in order for the team to obtain useful information from stakeholders."
   date: "2023-01-01"  # Corrected date format
-  page_url: "https://www.pebojot.com/2023/01/01/podcast/"
+  page_url: "/2023/01/01/podcast/"
 
 - src: "https://www.youtube.com/watch?v=ZfoB6NfLqHs"
   thumbnail: "https://www.youtube.com/watch?v=ZfoB6NfLqHs"
@@ -29,4 +29,4 @@
   mobile_description: "Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it."
   desktop_description: "Scrum is based on the cargo cult belief system. It involves a software developer repeating the same process every day without realising it. This leads to imposter syndrome, in which they lose sight of what's going on and get stuck in the rut."
   date: "2023-01-01"  # Corrected date format
-  page_url: "https://www.pebojot.com/2023/01/01/podcast/"
+  page_url: "/2023/01/01/podcast/"

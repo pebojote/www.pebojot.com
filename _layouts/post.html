@@ -34,20 +34,20 @@
   <link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
   {% feed_meta %}
   <!-- facebook -->
-  <meta property="og:url" content="https://www.pebojot.com{{ page.url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.short_description }}" />
-  <meta property="og:image" content="https://www.pebojot.com{{ page.image_url }}" />
+  <meta property="og:image" content="{{ page.image_url | absolute_url }}" />
   <!-- twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@workpebojot" />
   <meta name="twitter:creator" content="@workpebojot" />
-  <meta property="og:url" content="https://www.pebojot.com{{ page.url }}" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.short_description }}" />
-  <meta property="og:image" content="https://www.pebojot.com{{ page.image_url}}" />
+  <meta property="og:image" content="{{ page.image_url | absolute_url }}" />
 </head>
 
 <body>
