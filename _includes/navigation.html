@@ -19,7 +19,7 @@
                         </span>
                     </a>
                 {% else %}
-                    <a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link }}"
+                    <a class="dropdown-item {% if page.url == item.link %}active{% endif %}" href="{{ item.link | relative_url }}"
                     title="{{ item.title }}">
                         <span class="home-hover block">
                             {{ item.name }}
@@ -42,7 +42,7 @@
         <span class="justify-content-end nav nav-tabs navbar-nav mr-auto mb-2 mb-lg-0 pt-1 border-0">
             {% if item.link=="/"%}
             <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
-                href="{{ item.link }}">
+                href="{{ item.link | relative_url }}">
                 <span class="home-hover block">
                     {{ item.name }}
                 </span>
@@ -69,7 +69,7 @@
             </a>
         {% else %}
             <a class="nav-link {% if page.url==item.link %}active bg-transparent{% endif %} border-0" data-toggle="tabs"
-            href="{{ item.link }}">
+            href="{{ item.link | relative_url }}">
                 <span class="home-hover block">
                     {{ item.name }}
                 </span>
